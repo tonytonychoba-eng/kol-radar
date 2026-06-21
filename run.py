@@ -88,7 +88,9 @@ def main():
     lines.append("")
     lines.append("👉 這是研究線索,不是買賣訊號。你是 ETF 定期定額,當理解世界用。")
 
-    notify.push("\n".join(lines))
+    digest = "\n".join(lines)
+    print("\n===== 本次推播內容 =====\n" + digest + "\n========================\n")
+    notify.push(digest)
     print(f"完成:分析 {len(results)} 集,略過 {len(skipped)} 筆。")
 
 
