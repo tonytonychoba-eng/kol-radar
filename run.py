@@ -3,7 +3,7 @@
 單集失敗不會拖垮整批(各自 try)。
 """
 import json, os, datetime, traceback
-import channels, transcribe, analyze, notify
+import channels, transcribe, analyze, notify, synthesize
 
 SEEN_PATH = "state/seen.json"
 MAX_EPISODES = int(os.environ.get("KOL_MAX_EPISODES", "8"))   # 每次上限,控雲端時間
@@ -52,7 +52,18 @@ def main():
     # 彙整成一份 LINE 報告
     today = datetime.datetime.utcnow() + datetime.timedelta(hours=8)   # 台北時間
     lines = [f"☕ 你的財經頻道情報 {today:%m/%d}（自動）", ""]
-    if not results:
+    if results:
+        try:
+            lines.append("【今日總結】")
+            lines.append(synthesize.synthesize(results))
+            lines.append("")
+            lines.append("────────── 各台重點 ──────────")
+            lines.append("")
+        except Exception as e:
+            lines.append(f"(總結生成失敗,先給各台:{e})")
+            lines.append("")
+            traceback.print_exc()
+    else:
         lines.append("今日沒有值得深析的新集(或都被篩掉)。")
     for tag, title, a in results:
         lines.append(f"━━ {tag} ━━")
