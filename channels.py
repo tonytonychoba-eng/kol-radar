@@ -4,9 +4,11 @@ policy:
   always = 量少、產業密度高 → 永遠分析(不篩)
   filter = 日更/高量/混雜 → 套標題+shownotes 篩,值得才轉
 """
-import urllib.request, xml.etree.ElementTree as ET, re, html
+import os, datetime, urllib.request, xml.etree.ElementTree as ET, re, html
+from email.utils import parsedate_to_datetime
 
 ITUNES = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
+MAX_AGE_DAYS = int(os.environ.get("KOL_MAX_AGE_DAYS", "14"))   # 最新一集比這舊=頻道停更,不當今日情報
 
 FEEDS = [
     {"tag": "股癌",       "url": "https://feeds.soundon.fm/podcasts/954689a5-3096-43a4-a80b-7810b219cef3.xml", "policy": "always"},
@@ -48,7 +50,18 @@ def _dur_sec(s):
         return 0
 
 
-def latest(feed_url, n=2):
+def _age_days(pubdate):
+    if not pubdate:
+        return None
+    try:
+        dt = parsedate_to_datetime(pubdate)
+        now = datetime.datetime.now(dt.tzinfo) if dt.tzinfo else datetime.datetime.now()
+        return (now - dt).days
+    except Exception:
+        return None
+
+
+def latest(feed_url, n=1):
     """回傳最新 n 集:[{guid,title,dur_sec,shownotes,mp3}]。"""
     req = urllib.request.Request(feed_url, headers={"User-Agent": "Mozilla/5.0"})
     root = ET.fromstring(urllib.request.urlopen(req, timeout=30).read())
@@ -61,6 +74,7 @@ def latest(feed_url, n=2):
             "dur_sec": _dur_sec(item.findtext(f"{ITUNES}duration")),
             "shownotes": _clean(item.findtext("description") or item.findtext(f"{ITUNES}summary")),
             "mp3": enc.get("url") if enc is not None else None,
+            "age_days": _age_days(item.findtext("pubDate")),
         })
     return out
 
@@ -87,6 +101,8 @@ def worth(ep, policy, threshold=1):
     """always → 一律收;filter → 分數過門檻 且 不是極短預告。"""
     if not ep["mp3"]:
         return False
+    if ep.get("age_days") is not None and ep["age_days"] > MAX_AGE_DAYS:
+        return False                      # 最新一集都太舊(頻道停更)→ 不當今日情報
     if 0 < ep["dur_sec"] < 480:          # < 8 分 = 預告/雜訊,跳過
         return False
     if policy == "always":

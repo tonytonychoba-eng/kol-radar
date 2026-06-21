@@ -26,7 +26,7 @@ def main():
 
     for feed in channels.FEEDS:
         try:
-            for ep in channels.latest(feed["url"], n=2):
+            for ep in channels.latest(feed["url"], n=1):
                 key = f"{feed['tag']}::{ep['guid']}"
                 if key in seen:
                     continue
