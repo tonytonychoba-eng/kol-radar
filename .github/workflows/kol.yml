@@ -37,9 +37,13 @@ jobs:
 
       - name: 跑每日情報
         env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}           # Gemini 金鑰(Google AI Studio)
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}           # Gemini 金鑰(每台五層+跨台總結)
           LLM_BASE_URL: https://generativelanguage.googleapis.com/v1beta/openai/
           KOL_MODEL: gemini-2.5-flash-lite                  # 最便宜;要更深改 gemini-2.5-flash
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}     # GPT 收尾(要先開通 OpenAI 帳單才會動)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # Claude 收尾
+          GPT_MODEL: gpt-5.4-mini
+          CLAUDE_MODEL: claude-haiku-4-5
           LINE_CHANNEL_TOKEN: ${{ secrets.LINE_CHANNEL_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
           KOL_WHISPER: small              # tiny/base/small/medium

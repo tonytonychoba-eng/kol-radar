@@ -3,7 +3,7 @@
 單集失敗不會拖垮整批(各自 try)。
 """
 import json, os, datetime, traceback
-import channels, transcribe, analyze, notify, synthesize
+import channels, transcribe, analyze, notify, synthesize, panel
 
 SEEN_PATH = "state/seen.json"
 MAX_EPISODES = int(os.environ.get("KOL_MAX_EPISODES", "8"))   # 每次上限,控雲端時間
@@ -54,13 +54,18 @@ def main():
     lines = [f"☕ 你的財經頻道情報 {today:%m/%d}（自動）", ""]
     if results:
         try:
-            lines.append("【今日總結】")
-            lines.append(synthesize.synthesize(results))
+            summary = synthesize.synthesize(results)
+            lines.append("【今日總結】(Gemini 跨台整合)")
+            lines.append(summary)
             lines.append("")
+            for name, take in panel.takes(summary):
+                lines.append(f"🤖 {name} 收尾：")
+                lines.append(take)
+                lines.append("")
             lines.append("────────── 各台重點 ──────────")
             lines.append("")
         except Exception as e:
-            lines.append(f"(總結生成失敗,先給各台:{e})")
+            lines.append(f"(總結/收尾生成失敗,先給各台:{e})")
             lines.append("")
             traceback.print_exc()
     else:
