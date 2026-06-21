@@ -2,7 +2,7 @@ name: KOL 財經情報
 
 on:
   schedule:
-    - cron: "0 22 * * *"      # UTC 22:00 = 台北 06:00,每天清晨
+    - cron: "30 21 * * *"     # UTC 21:30 = 台北 05:30 開跑(留時間轉錄);跑完忍到 07:00 才推
   workflow_dispatch:           # 也能手動觸發測試
     inputs:
       max_episodes:

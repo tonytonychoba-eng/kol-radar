@@ -98,6 +98,15 @@ def main():
 
     digest = "\n".join(lines)
     print("\n===== 本次推播內容 =====\n" + digest + "\n========================\n")
+    # 守住「早上 07:00 才推」——排程跑早了就忍到台北 7 點再推,避免太早吵你
+    # (手動觸發若已過 7 點 → 立即推,不等待)
+    now_tpe = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
+    seven = now_tpe.replace(hour=7, minute=0, second=0, microsecond=0)
+    if now_tpe < seven:
+        import time as _t
+        wait = (seven - now_tpe).total_seconds()
+        print(f"等到台北 07:00 再推(還 {wait/60:.0f} 分)…", flush=True)
+        _t.sleep(wait)
     notify.push(digest)
     print(f"完成:分析 {len(results)} 集,略過 {len(skipped)} 筆。")
 
