@@ -1,0 +1,55 @@
+name: KOL 財經情報
+
+on:
+  schedule:
+    - cron: "0 22 * * *"      # UTC 22:00 = 台北 06:00,每天清晨
+  workflow_dispatch:           # 也能手動觸發測試
+    inputs:
+      max_episodes:
+        description: "本次最多分析幾集(測試可填小一點)"
+        default: "8"
+
+# 讓 workflow 能把 state/seen.json 寫回 repo(跨日去重)
+permissions:
+  contents: write
+
+# 避免兩次排程疊在一起
+concurrency:
+  group: kol-daily
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300        # 上限 5 小時,單集卡死也有底
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 裝 ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: 裝套件
+        run: pip install -r requirements.txt
+
+      - name: 跑每日情報
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}           # Gemini 金鑰(Google AI Studio)
+          LLM_BASE_URL: https://generativelanguage.googleapis.com/v1beta/openai/
+          KOL_MODEL: gemini-2.5-flash-lite                  # 最便宜;要更深改 gemini-2.5-flash
+          LINE_CHANNEL_TOKEN: ${{ secrets.LINE_CHANNEL_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          KOL_WHISPER: small              # tiny/base/small/medium
+          KOL_MAX_EPISODES: ${{ github.event.inputs.max_episodes || '8' }}
+        run: python run.py
+
+      - name: 記住已分析的集(寫回 repo)
+        run: |
+          git config user.name "kol-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/seen.json
+          git diff --staged --quiet || git commit -m "update seen $(date -u +%F)"
+          git push || true
