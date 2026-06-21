@@ -74,7 +74,29 @@ def _foreign_net():
     return None
 
 
-def build():
+def _kol_heat(results):
+    """讀各台 KOL 分析 → 判散戶情緒/柴火。回傳 (顯示行, is_hot)。便宜的一次 Gemini 呼叫。"""
+    import os
+    from openai import OpenAI
+    blob = "\n\n".join(f"# {tag}:{a[:600]}" for tag, _t, a in results)
+    c = OpenAI(api_key=os.environ.get("LLM_API_KEY"),
+               base_url=os.environ.get("LLM_BASE_URL",
+                                       "https://generativelanguage.googleapis.com/v1beta/openai/"))
+    prompt = ("根據以下財經 Podcast 各台分析,判斷『散戶情緒/市場柴火』。\n"
+              "第一行只輸出一個詞:HOT(多台同喊同題材、明顯樂觀過熱)、NEUTRAL(中性/分歧)、FEAR(偏恐慌)。\n"
+              "第二行一句話說明散戶在熱什麼或怕什麼(30 字內)。\n\n各台分析:\n" + blob[:18000])
+    r = c.chat.completions.create(
+        model=os.environ.get("KOL_SYNTH_MODEL", os.environ.get("KOL_MODEL", "gemini-2.5-flash-lite")),
+        max_tokens=120, messages=[{"role": "user", "content": prompt}])
+    txt = (r.choices[0].message.content or "").strip()
+    head = txt.split("\n")[0].upper()
+    desc = txt.split("\n", 1)[1].strip() if "\n" in txt else ""
+    hot = "HOT" in head
+    tag = "⚠️ 🔥散戶過熱" if hot else ("➖ 散戶偏恐慌" if "FEAR" in head else "✅ 散戶情緒中性")
+    return (f"{tag}:{desc}（柴火,反指標參考）" if desc else f"{tag}（柴火,反指標參考）"), hot
+
+
+def build(results=None):
     lines, warn, signals = [], 0, 0
 
     tw = _twii()
@@ -112,6 +134,17 @@ def build():
             lines.append(f"✅ 外資買超大盤 {fn['net_e']:.0f} 億")
         else:
             lines.append(f"➖ 外資對大盤 {fn['net_e']:+.0f} 億")
+
+    # ⑤ 散戶情緒/柴火:讀 KOL 各台分析判市場過不過熱(反指標;過熱算一項實質轉弱=環境脆弱)
+    if results:
+        try:
+            line, hot = _kol_heat(results)
+            lines.append(line)
+            signals += 1
+            if hot:
+                warn += 1
+        except Exception:
+            pass
 
     if not lines:
         return "🌡 今日天氣:⚠️ 資料源暫時取不到,今天天氣打問號、略過參考"

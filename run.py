@@ -53,7 +53,7 @@ def main():
     today = datetime.datetime.utcnow() + datetime.timedelta(hours=8)   # 台北時間
     lines = [f"☕ 你的財經頻道情報 {today:%m/%d}（自動）", ""]
     try:
-        wx = weather.build()
+        wx = weather.build(results)          # 把 KOL 散戶情緒當柴火納入天氣
     except Exception:
         wx = "🌡 今日天氣:取得失敗"
         traceback.print_exc()
