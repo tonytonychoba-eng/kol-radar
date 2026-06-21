@@ -3,7 +3,7 @@
 單集失敗不會拖垮整批(各自 try)。
 """
 import json, os, datetime, traceback
-import channels, transcribe, analyze, notify, synthesize, panel, weather
+import channels, transcribe, analyze, notify, synthesize, panel, weather, kolstocks
 
 SEEN_PATH = "state/seen.json"
 MAX_EPISODES = int(os.environ.get("KOL_MAX_EPISODES", "8"))   # 每次上限,控雲端時間
@@ -48,6 +48,14 @@ def main():
             traceback.print_exc()
 
     save_seen(seen)
+
+    # 抽 KOL 個股優勢論述 → 存 JSON 給 stock-radar(本地)對硬數據驗證
+    try:
+        ks = kolstocks.extract(results) if results else []
+        kolstocks.save(ks)
+        print(f"KOL 個股論述:{len(ks)} 檔")
+    except Exception:
+        traceback.print_exc()
 
     # 彙整成一份 LINE 報告
     today = datetime.datetime.utcnow() + datetime.timedelta(hours=8)   # 台北時間
