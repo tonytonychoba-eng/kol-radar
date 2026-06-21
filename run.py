@@ -3,7 +3,7 @@
 單集失敗不會拖垮整批(各自 try)。
 """
 import json, os, datetime, traceback
-import channels, transcribe, analyze, notify, synthesize, panel
+import channels, transcribe, analyze, notify, synthesize, panel, weather
 
 SEEN_PATH = "state/seen.json"
 MAX_EPISODES = int(os.environ.get("KOL_MAX_EPISODES", "8"))   # 每次上限,控雲端時間
@@ -52,13 +52,20 @@ def main():
     # 彙整成一份 LINE 報告
     today = datetime.datetime.utcnow() + datetime.timedelta(hours=8)   # 台北時間
     lines = [f"☕ 你的財經頻道情報 {today:%m/%d}（自動）", ""]
+    try:
+        wx = weather.build()
+    except Exception:
+        wx = "🌡 今日天氣:取得失敗"
+        traceback.print_exc()
+    lines.append(wx)
+    lines.append("")
     if results:
         try:
-            summary = synthesize.synthesize(results)
-            lines.append("【今日總結】(Gemini 跨台整合)")
+            summary = synthesize.synthesize(results, weather=wx)
+            lines.append("【今日總結】(Gemini 跨台整合，已參考天氣)")
             lines.append(summary)
             lines.append("")
-            for name, take in panel.takes(summary):
+            for name, take in panel.takes(summary, weather=wx):
                 lines.append(f"🤖 {name} 收尾：")
                 lines.append(take)
                 lines.append("")
