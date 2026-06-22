@@ -1,4 +1,22 @@
 {
- "date": "2026-06-22",
- "stocks": []
+ "date": "2026-06-23",
+ "stocks": [
+  {
+   "name": "特斯拉",
+   "code": "TSLA",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "FSD 導入台灣將對其銷量產生正面影響",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "FSD 導入台灣後，預計顯著帶動特斯拉的銷售成長"
+    }
+   ],
+   "narrative": [
+    "FSD 導入台灣將提升其產品吸引力"
+   ]
+  }
+ ]
 }
