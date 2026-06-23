@@ -1,21 +1,23 @@
 {
- "date": "2026-06-23",
+ "date": "2026-06-24",
  "stocks": [
   {
-   "name": "特斯拉",
-   "code": "TSLA",
+   "name": "美光 (Micron)",
+   "code": "MU",
    "channels": [
-    "M觀點"
+    "財女珍妮"
    ],
-   "advantage": "FSD 導入台灣將對其銷量產生正面影響",
+   "advantage": "美光因 AI 需求（HBM）與 Anthropic 合作而表現強勁",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "FSD 導入台灣後，預計顯著帶動特斯拉的銷售成長"
+     "text": "美光因 AI 需求（HBM）與 Anthropic 合作而表現強勁"
     }
    ],
    "narrative": [
-    "FSD 導入台灣將提升其產品吸引力"
+    "將長期供應 HBM、DRAM、SSD 等產品",
+    "與 Anthropic 達成戰略合作協議",
+    "美光財報後可能還有續漲空間"
    ]
   }
  ]
