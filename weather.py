@@ -6,6 +6,7 @@
   - 多項「實質轉弱」同時出現才算天氣轉壞(共振),不靠單一訊號嚇人。
   - 資料掉了就標問號、不讓報告崩。
 """
+import os
 import datetime
 import requests
 
@@ -52,6 +53,32 @@ def _sox():
 def _vix():
     h = _closes("%5EVIX", "5d")
     return h[-1][1] if h else None
+
+
+def _night_futures():
+    """台指期近月「夜盤 vs 日盤」gap%(FinMind TaiwanFuturesDaily TX)。
+    夜盤(15:00–次日05:00)是最接近隔天開盤的盤前訊號。"""
+    params = {
+        "dataset": "TaiwanFuturesDaily", "data_id": "TX",
+        "start_date": (datetime.datetime.now() - datetime.timedelta(days=7)).strftime("%Y-%m-%d"),
+    }
+    token = os.environ.get("FINMIND_TOKEN")
+    if token:
+        params["token"] = token
+    try:
+        r = requests.get("https://api.finmindtrade.com/api/v4/data", params=params, timeout=30)
+        r.raise_for_status()
+        rows = [x for x in r.json().get("data", []) if "/" not in x["contract_date"] and x.get("volume")]
+        if not rows:
+            return None
+        near = min(x["contract_date"] for x in rows)
+        night = [x for x in rows if x["contract_date"] == near and x["trading_session"] == "after_market"]
+        day = [x for x in rows if x["contract_date"] == near and x["trading_session"] == "position"]
+        if not night or not day or not day[-1]["close"]:
+            return None
+        return (night[-1]["close"] - day[-1]["close"]) / day[-1]["close"] * 100
+    except Exception:
+        return None
 
 
 def _foreign_net():
@@ -135,7 +162,18 @@ def build(results=None):
         else:
             lines.append(f"➖ 外資對大盤 {fn['net_e']:+.0f} 億")
 
-    # ⑤ 散戶情緒/柴火:讀 KOL 各台分析判市場過不過熱(反指標;過熱算一項實質轉弱=環境脆弱)
+    # ⑤ 台指期夜盤(盤前訊號:夜盤 vs 日盤)
+    nf = _night_futures()
+    if nf is not None:
+        signals += 1
+        if nf <= -0.5:
+            lines.append(f"⚠️ 台指期夜盤 {nf:+.1f}%(跌破日盤=隔天偏空投票)"); warn += 1
+        elif nf >= 0.5:
+            lines.append(f"✅ 台指期夜盤 {nf:+.1f}%(高於日盤)")
+        else:
+            lines.append(f"➖ 台指期夜盤 {nf:+.1f}%(持平)")
+
+    # ⑥ 散戶情緒/柴火:讀 KOL 各台分析判市場過不過熱(反指標;過熱算一項實質轉弱=環境脆弱)
     if results:
         try:
             line, hot = _kol_heat(results)
