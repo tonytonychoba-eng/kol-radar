@@ -1,68 +1,21 @@
 {
- "date": "2026-06-25",
+ "date": "2026-06-26",
  "stocks": [
   {
-   "name": "聯發科",
-   "code": "2454",
-   "channels": [
-    "股癌"
-   ],
-   "advantage": "聯發科調漲晶片價格，並推出新的 Trigger Fish 晶片（儘管處於早期階段）。",
-   "claims": [],
-   "narrative": [
-    "調漲晶片價格",
-    "推出新的 Trigger Fish 晶片（儘管處於早期階段）"
-   ]
-  },
-  {
-   "name": "博通",
+   "name": "KLA",
    "code": "",
    "channels": [
-    "股癌"
+    "財報狗"
    ],
-   "advantage": "博通推出新的第九代晶片 Welfish。",
-   "claims": [],
-   "narrative": [
-    "推出新的第九代晶片 Welfish"
-   ]
-  },
-  {
-   "name": "輝達",
-   "code": "",
-   "channels": [
-    "財女珍妮"
+   "advantage": "隨著 CoPoS 的發展與玻璃基板的導入，對製程檢測的需求將顯著增加，以確保良率。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "檢測設備（如 AOI、KLA）的市場需求預期將高於整體半導體設備市場。"
+    }
    ],
-   "advantage": "輝達等 AI 相關公司在估值過高但未戳破 AI 泡沫的前提下，可在特定價位附近分批佈局。",
-   "claims": [],
    "narrative": [
-    "AI 泡沫尚未戳破，只是估值過高",
-    "應買強不買弱",
-    "可在 200 美元附近試單，分批佈局"
-   ]
-  },
-  {
-   "name": "AMD",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AMD 等 AI 相關公司在估值過高但未戳破 AI 泡沫的前提下，應買強不買弱。",
-   "claims": [],
-   "narrative": [
-    "AI 泡沫尚未戳破，只是估值過高",
-    "應買強不買弱"
-   ]
-  },
-  {
-   "name": "Alphabet (Google)",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "Alphabet 將納入道瓊工業指數，顯示其受關注。",
-   "claims": [],
-   "narrative": [
-    "將納入道瓊工業指數"
+    "AI 檢測（AOI）與 KLA 等檢測設備在後段製程的重要性提升。"
    ]
   }
  ]
