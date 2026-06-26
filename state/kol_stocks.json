@@ -1,22 +1,4 @@
 {
- "date": "2026-06-26",
- "stocks": [
-  {
-   "name": "KLA",
-   "code": "",
-   "channels": [
-    "財報狗"
-   ],
-   "advantage": "隨著 CoPoS 的發展與玻璃基板的導入，對製程檢測的需求將顯著增加，以確保良率。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "檢測設備（如 AOI、KLA）的市場需求預期將高於整體半導體設備市場。"
-    }
-   ],
-   "narrative": [
-    "AI 檢測（AOI）與 KLA 等檢測設備在後段製程的重要性提升。"
-   ]
-  }
- ]
+ "date": "2026-06-27",
+ "stocks": []
 }
