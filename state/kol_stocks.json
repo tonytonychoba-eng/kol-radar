@@ -1,68 +1,25 @@
 {
- "date": "2026-06-28",
+ "date": "2026-06-29",
  "stocks": [
   {
-   "name": "Nvidia",
-   "code": "",
-   "channels": [
-    "股癌"
-   ],
-   "advantage": "AI 伺服器等供應鏈拉貨動能仍在。",
-   "claims": [],
-   "narrative": [
-    "作者有操作（壓到）"
-   ]
-  },
-  {
    "name": "美光",
    "code": "",
    "channels": [
-    "股癌",
-    "游庭皓"
+    "財經M平方"
    ],
-   "advantage": "毛利率極高，大漲，漲價動力強。",
+   "advantage": "AI 需求強勁推升了記憶體超級週期，帶動美光財報亮眼",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "毛利率極高"
-    }
-   ],
-   "narrative": [
-    "大漲",
-    "漲價動力強"
-   ]
-  },
-  {
-   "name": "Google",
-   "code": "",
-   "channels": [
-    "股癌"
-   ],
-   "advantage": "降本增效做得好，晶片開發、Portfolio 配置、模型應用層面調整良好。",
-   "claims": [],
-   "narrative": [
-    "作者有將強勢股換到較弱的科技巨頭"
-   ]
-  },
-  {
-   "name": "美光",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 記憶體需求確定性高，資金湧向半導體供應鏈。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "16家重要客戶簽訂平均長達3年的供貨協議"
+     "text": "美光營收年增 346%"
     },
     {
      "type": "revenue_up",
-     "text": "毛利率達85%"
+     "text": "美光毛利率 84%"
     }
    ],
    "narrative": [
-    "財報優異，股價飆升近16%"
+    "預計記憶體供不應求至少到 2027 年上半年改善"
    ]
   }
  ]
