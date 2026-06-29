@@ -1,25 +1,42 @@
 {
- "date": "2026-06-29",
+ "date": "2026-06-30",
  "stocks": [
   {
-   "name": "美光",
-   "code": "",
+   "name": "Nvidia",
+   "code": "NVDA",
    "channels": [
-    "財經M平方"
+    "游庭皓"
    ],
-   "advantage": "AI 需求強勁推升了記憶體超級週期，帶動美光財報亮眼",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "美光營收年增 346%"
-    },
-    {
-     "type": "revenue_up",
-     "text": "美光毛利率 84%"
-    }
-   ],
+   "advantage": "GPU 算力的稀缺性是其核心優勢，支撐了 AI 發展。",
+   "claims": [],
    "narrative": [
-    "預計記憶體供不應求至少到 2027 年上半年改善"
+    "GPU 算力的稀缺性",
+    "AI 基礎建設的龐大投資回收不易，導致股價承壓"
+   ]
+  },
+  {
+   "name": "Oracle",
+   "code": "ORCL",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "作為算力公司，其雲端服務營收增速顯著。",
+   "claims": [],
+   "narrative": [
+    "作為算力公司，營收增速顯著"
+   ]
+  },
+  {
+   "name": "Ansemim",
+   "code": "ON Semiconductor",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "專注車用、工業、AI 數據中心領域，透過收購 Synaptics 佈局邊緣 AI 及實體 AI。",
+   "claims": [],
+   "narrative": [
+    "專注車用、工業、AI 數據中心領域",
+    "透過收購 Synaptics 佈局邊緣 AI (HAI) 及實體 AI (Fiscal AI)"
    ]
   }
  ]
