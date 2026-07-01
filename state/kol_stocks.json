@@ -1,22 +1,60 @@
 {
- "date": "2026-07-01",
+ "date": "2026-07-02",
  "stocks": [
   {
-   "name": "美光",
-   "code": "",
+   "name": "聯發科",
+   "code": "2454",
    "channels": [
-    "財女珍妮"
+    "股癌"
    ],
-   "advantage": "因需求強勁及財報利多，短期相對看好。",
+   "advantage": "IC 設計龍頭轉強，有機會受惠於需求導向的漲價。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "上週財報樂觀，大幅調高未來指引"
+     "text": "部分消費性 IC 設計漲價是成本導向，而需求導向的漲價更受市場關注。"
     }
    ],
-   "narrative": [
-    "短期相對看好"
-   ]
+   "narrative": []
+  },
+  {
+   "name": "創意",
+   "code": "3443",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "IC 設計龍頭轉強，有機會受惠於需求導向的漲價。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "部分消費性 IC 設計漲價是成本導向，而需求導向的漲價更受市場關注。"
+    }
+   ],
+   "narrative": []
+  },
+  {
+   "name": "世芯",
+   "code": "3661",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "IC 設計龍頭轉強，有機會受惠於需求導向的漲價。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "部分消費性 IC 設計漲價是成本導向，而需求導向的漲價更受市場關注。"
+    }
+   ],
+   "narrative": []
+  },
+  {
+   "name": "南電",
+   "code": "8046",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "ABF 載板受重建物業影響，具市場關注。",
+   "claims": [],
+   "narrative": []
   }
  ]
 }
