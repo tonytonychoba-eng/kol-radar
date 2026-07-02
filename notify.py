@@ -9,14 +9,19 @@ def _chunks(text, size=4800):
 
 def push(text):
     token = os.environ.get("LINE_CHANNEL_TOKEN")
-    uid = os.environ.get("LINE_USER_ID")
-    if not token or not uid:
+    # LINE_USER_ID 支援多人:用逗號或空白分隔多個 userId
+    uids = [u.strip() for u in (os.environ.get("LINE_USER_ID") or "").replace(",", " ").split() if u.strip()]
+    if not token or not uids:
         print("⚠️ 未設 LINE secret,改印出:\n" + text)
         return
-    for chunk in _chunks(text):
-        req = urllib.request.Request(
-            "https://api.line.me/v2/bot/message/push",
-            data=json.dumps({"to": uid, "messages": [{"type": "text", "text": chunk}]}).encode(),
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-        )
-        urllib.request.urlopen(req, timeout=20)
+    for uid in uids:
+        for chunk in _chunks(text):
+            req = urllib.request.Request(
+                "https://api.line.me/v2/bot/message/push",
+                data=json.dumps({"to": uid, "messages": [{"type": "text", "text": chunk}]}).encode(),
+                headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+            )
+            try:
+                urllib.request.urlopen(req, timeout=20)
+            except Exception as e:
+                print(f"推給 {uid[:8]}… 失敗:{e}")
