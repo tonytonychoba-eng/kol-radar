@@ -1,48 +1,23 @@
 {
- "date": "2026-07-10",
+ "date": "2026-07-11",
  "stocks": [
   {
-   "name": "輝達",
-   "code": "NVDA",
+   "name": "Meta",
+   "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "輝達等 AI 領導者因其系統整合能力，長期成長潛力仍被看好。",
+   "advantage": "透過自家 AI 晶片量產、推出 AI 模型收費 API，及發展 AI 雲端業務，有望轉型為廣告、AI 模型、算力基礎設施複合型科技公司。",
    "claims": [
     {
-     "type": "revenue_up",
-     "text": "博通與蘋果簽署300億美元晶片供應協議"
-    },
-    {
-     "type": "revenue_up",
-     "text": "美銀預估AI加速器市場將大幅成長"
+     "type": "price_break",
+     "text": "Meta 股價合理，未來成長價值可期"
     }
    ],
    "narrative": [
-    "AI 投資熱潮被視為推升通膨的關鍵因素",
-    "市場對 AI 公司應保持耐心，等待新的催化劑",
-    "是佈局的拉回買進時機"
-   ]
-  },
-  {
-   "name": "博通",
-   "code": "AVGO",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "博通作為晶片供應商，在 AI 產業鏈中扮演重要角色，並有潛力受益於 AI 加速器市場的成長。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "博通與蘋果簽署300億美元晶片供應協議"
-    },
-    {
-     "type": "revenue_up",
-     "text": "美銀預估AI加速器市場將大幅成長"
-    }
-   ],
-   "narrative": [
-    "是佈局的拉回買進時機"
+    "計劃 9 月量產 Iris 晶片",
+    "推出付費 API",
+    "預計 2027 年算力翻倍"
    ]
   }
  ]
