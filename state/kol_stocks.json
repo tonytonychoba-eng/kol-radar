@@ -1,24 +1,4 @@
 {
- "date": "2026-07-11",
- "stocks": [
-  {
-   "name": "Meta",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "透過自家 AI 晶片量產、推出 AI 模型收費 API，及發展 AI 雲端業務，有望轉型為廣告、AI 模型、算力基礎設施複合型科技公司。",
-   "claims": [
-    {
-     "type": "price_break",
-     "text": "Meta 股價合理，未來成長價值可期"
-    }
-   ],
-   "narrative": [
-    "計劃 9 月量產 Iris 晶片",
-    "推出付費 API",
-    "預計 2027 年算力翻倍"
-   ]
-  }
- ]
+ "date": "2026-07-12",
+ "stocks": []
 }
