@@ -1,23 +1,38 @@
 {
- "date": "2026-07-14",
+ "date": "2026-07-15",
  "stocks": [
   {
    "name": "台積電",
    "code": "2330",
    "channels": [
-    "財女珍妮"
+    "游庭皓"
    ],
-   "advantage": "在 AI 產業趨勢下，處於不敗之地。",
+   "advantage": "預期營收與EPS持續增長，為半導體產業龍頭。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "AI 需求持續"
+     "text": "預期營收與EPS持續增長"
     }
    ],
    "narrative": [
-    "AI 資本支出擴張",
-    "AI 週期將比過往長",
-    "估值合理"
+    "股價有機會創新高"
+   ]
+  },
+  {
+   "name": "蘋果",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "獲利穩健，在市場恐慌時成為投資人尋求避風港的選擇。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "獲利穩健"
+    }
+   ],
+   "narrative": [
+    "股價創歷史新高"
    ]
   }
  ]
