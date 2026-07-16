@@ -1,188 +1,40 @@
 {
- "date": "2026-07-16",
+ "date": "2026-07-17",
  "stocks": [
-  {
-   "name": "SK 海力士",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 競賽成敗將決定巨頭債務償還能力。",
-   "claims": [],
-   "narrative": [
-    "AI 發展是影響未來貨幣政策及總體資產表現的關鍵",
-    "個人對未來持樂觀態度"
-   ]
-  },
-  {
-   "name": "IBM",
-   "code": "",
-   "channels": [
-    "游庭皓",
-    "財女珍妮"
-   ],
-   "advantage": "AI 發展將是影響未來貨幣政策及總體資產表現的關鍵。",
-   "claims": [
-    {
-     "type": "revenue_down",
-     "text": "IBM 營收與 EPS 低於預期"
-    },
-    {
-     "type": "revenue_down",
-     "text": "IBM 軟體營收年增 5% 低於預期 10%"
-    },
-    {
-     "type": "revenue_down",
-     "text": "IBM 基礎設施營收年減 7%"
-    }
-   ],
-   "narrative": [
-    "AI 投資資金流向已從軟體轉向硬體",
-    "企業 IT 預算有限，將優先建構基礎設施",
-    "IBM 股價到了潛在低點可能震盪"
-   ]
-  },
-  {
-   "name": "輝達",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 競賽成敗將決定巨頭債務償還能力。",
-   "claims": [],
-   "narrative": [
-    "AI 發展是影響未來貨幣政策及總體資產表現的關鍵",
-    "個人對未來持樂觀態度"
-   ]
-  },
-  {
-   "name": "Google",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 競賽成敗將決定巨頭債務償還能力。",
-   "claims": [],
-   "narrative": [
-    "AI 發展是影響未來貨幣政策及總體資產表現的關鍵",
-    "個人對未來持樂觀態度"
-   ]
-  },
-  {
-   "name": "Amazon",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 競賽成敗將決定巨頭債務償還能力。",
-   "claims": [],
-   "narrative": [
-    "AI 發展是影響未來貨幣政策及總體資產表現的關鍵",
-    "個人對未來持樂觀態度"
-   ]
-  },
-  {
-   "name": "Meta",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 競賽成敗將決定巨頭債務償還能力。",
-   "claims": [],
-   "narrative": [
-    "AI 發展是影響未來貨幣政策及總體資產表現的關鍵",
-    "個人對未來持樂觀態度"
-   ]
-  },
-  {
-   "name": "蘋果",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 競賽成敗將決定巨頭債務償還能力。",
-   "claims": [],
-   "narrative": [
-    "AI 發展是影響未來貨幣政策及總體資產表現的關鍵",
-    "個人對未來持樂觀態度"
-   ]
-  },
-  {
-   "name": "博通",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 競賽成敗將決定巨頭債務償還能力。",
-   "claims": [],
-   "narrative": [
-    "AI 發展是影響未來貨幣政策及總體資產表現的關鍵",
-    "個人對未來持樂觀態度"
-   ]
-  },
-  {
-   "name": "美光",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 投資資金流向已從軟體轉向硬體。",
-   "claims": [],
-   "narrative": [
-    "企業 IT 預算有限，將優先建構基礎設施",
-    "軟體需求可能反彈但需時間"
-   ]
-  },
-  {
-   "name": "微軟",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 投資資金流向已從軟體轉向硬體。",
-   "claims": [],
-   "narrative": [
-    "企業 IT 預算有限，將優先建構基礎設施",
-    "軟體需求可能反彈但需時間"
-   ]
-  },
-  {
-   "name": "AMD",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 投資資金流向已從軟體轉向硬體。",
-   "claims": [],
-   "narrative": [
-    "企業 IT 預算有限，將優先建構基礎設施",
-    "軟體需求可能反彈但需時間"
-   ]
-  },
   {
    "name": "Intel",
    "code": "",
    "channels": [
-    "財女珍妮"
+    "M觀點"
    ],
-   "advantage": "AI 投資資金流向已從軟體轉向硬體。",
-   "claims": [],
+   "advantage": "18A 製程良率大幅提升，將主導下一代 CPU 生產，重拾製造競爭力。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Intel 18A 良率從 50% 提升至 85%"
+    }
+   ],
    "narrative": [
-    "企業 IT 預算有限，將優先建構基礎設施",
-    "軟體需求可能反彈但需時間"
+    "減少對台積電依賴，轉為自身生產",
+    "有望成為第二供應鏈",
+    "有機會在代工領域成功"
    ]
   },
   {
-   "name": "Nvidia",
+   "name": "ASML",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "AI 投資資金流向已從軟體轉向硬體。",
-   "claims": [],
+   "advantage": "設備有助於提升記憶體產能效率，可能縮短缺貨週期。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "ASML 第二季營收、毛利率優於預期，並上修全年財測"
+    }
+   ],
    "narrative": [
-    "企業 IT 預算有限，將優先建構基礎設施",
-    "軟體需求可能反彈但需時間"
+    "設備升級"
    ]
   }
  ]
