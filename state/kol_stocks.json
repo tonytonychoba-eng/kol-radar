@@ -1,37 +1,4 @@
 {
- "date": "2026-07-21",
- "stocks": [
-  {
-   "name": "艾司摩爾",
-   "code": "3454",
-   "channels": [
-    "游庭皓",
-    "財女珍妮"
-   ],
-   "advantage": "艾司摩爾上調資本支出，顯示公司對未來展望積極，需求強勁。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "艾司摩爾上調資本支出"
-    }
-   ],
-   "narrative": []
-  },
-  {
-   "name": "台積電",
-   "code": "2330",
-   "channels": [
-    "游庭皓",
-    "財女珍妮"
-   ],
-   "advantage": "台積電上調資本支出，顯示公司對未來展望積極，需求強勁。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "台積電上調資本支出"
-    }
-   ],
-   "narrative": []
-  }
- ]
+ "date": "2026-07-22",
+ "stocks": []
 }
