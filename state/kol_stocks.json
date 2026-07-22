@@ -1,4 +1,17 @@
 {
- "date": "2026-07-22",
- "stocks": []
+ "date": "2026-07-23",
+ "stocks": [
+  {
+   "name": "Ferian",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "擁有用於AI資料中心連接的EBO技術",
+   "claims": [],
+   "narrative": [
+    "Ferian股價有壓力需觀察"
+   ]
+  }
+ ]
 }
