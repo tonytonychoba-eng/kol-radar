@@ -1,78 +1,53 @@
 {
- "date": "2026-07-24",
+ "date": "2026-07-25",
  "stocks": [
   {
-   "name": "Google",
-   "code": "",
-   "channels": [
-    "游庭皓",
-    "M觀點",
-    "財女珍妮"
-   ],
-   "advantage": "Cloud 成長強勁，AI 佈局是關鍵。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "Google Cloud 營收年增 82%"
-    },
-    {
-     "type": "revenue_down",
-     "text": "第二季自由現金流為負 58.55 億美元"
-    }
-   ],
-   "narrative": [
-    "AI 巨頭們的高資本支出導致自由現金流惡化，市場對其資金來源與投資報酬率的擔憂正升高。",
-    "AI 產業處於萌芽期，但資金來源將成未來關鍵；預期 AI 成本下降將催生更多需求。",
-    "Google 的 AI 佈局是「同一個故事」。",
-    "Google Gemini 3.6 Flash 表現不如預期，在市場競爭激烈下，面臨被 OpenAI、Meta 等同級甚至更便宜的模型超越的窘境。",
-    "只能寄望未來更強的 Gemini 4.0。"
-   ]
-  },
-  {
-   "name": "特斯拉",
-   "code": "",
+   "name": "Intel",
+   "code": "INTC",
    "channels": [
     "游庭皓",
     "財女珍妮"
    ],
-   "advantage": "電動車、AI、Optimus、Cybercap 佈局。",
+   "advantage": "資料中心與 AI 事業營收顯著成長，可彌補 PC 市場潛在下滑。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "特斯拉營收年增 26%"
+     "text": "英特爾資料中心與 AI 事業營收顯著成長"
     },
     {
      "type": "revenue_up",
-     "text": "FSD 付費客戶增至 148 萬"
+     "text": "英特爾財報大超預期"
     }
    ],
    "narrative": [
-    "特斯拉財報不如預期、毛利率下滑。",
-    "特斯拉股價未來較難突破前高，應保守看待。"
-   ]
-  },
-  {
-   "name": "台積電",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 晶片供應鏈。",
-   "claims": [],
-   "narrative": [
-    "AI 巨頭們的高資本支出導致自由現金流惡化，市場對其資金來源與投資報酬率的擔憂正升高。"
+    "AI 需求正全面回歸",
+    "18A 製程進展順利",
+    "AI 需求成長將帶動 CPU 需求"
    ]
   },
   {
    "name": "AMD",
-   "code": "",
+   "code": "AMD",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "成長性很高的公司。",
+   "advantage": "AI 晶片發展趨勢",
    "claims": [],
    "narrative": [
-    "AMD 是「成長性很高的公司」。"
+    "AI 發展趨勢"
+   ]
+  },
+  {
+   "name": "台積電",
+   "code": "2330",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "先進封裝、晶圓代工的供應鏈協同效應",
+   "claims": [],
+   "narrative": [
+    "供應鏈協同效應",
+    "先進封裝、晶圓代工"
    ]
   }
  ]
