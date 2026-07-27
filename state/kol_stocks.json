@@ -1,4 +1,22 @@
 {
- "date": "2026-07-27",
- "stocks": []
+ "date": "2026-07-28",
+ "stocks": [
+  {
+   "name": "台積電",
+   "code": "2330",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "具有AI晶片壟斷優勢",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "第三季概率比第二季高"
+    }
+   ],
+   "narrative": [
+    "建議在高點佈局，因修正有限，防禦性較強"
+   ]
+  }
+ ]
 }
