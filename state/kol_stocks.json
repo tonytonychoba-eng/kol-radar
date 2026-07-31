@@ -1,86 +1,17 @@
 {
- "date": "2026-07-31",
+ "date": "2026-08-01",
  "stocks": [
   {
-   "name": "美光",
-   "code": "MU",
-   "channels": [
-    "M觀點",
-    "財女珍妮"
-   ],
-   "advantage": "AI 基礎建設股，市場擔憂其資本支出是否能持續獲利與規模可持續性。",
-   "claims": [
-    {
-     "type": "revenue_down",
-     "text": "AI 基礎建設股近期下跌 20%-40%"
-    }
-   ],
-   "narrative": [
-    "AI 算力需求長期樂觀",
-    "高於預期的成長已被定價"
-   ]
-  },
-  {
-   "name": "輝達供應鏈相關股票",
+   "name": "倍利科",
    "code": "",
    "channels": [
-    "M觀點"
+    "財報狗"
    ],
-   "advantage": "AI 基礎建設股，市場擔憂其資本支出是否能持續獲利與規模可持續性。",
-   "claims": [
-    {
-     "type": "revenue_down",
-     "text": "AI 基礎建設股近期下跌 20%-40%"
-    }
-   ],
-   "narrative": [
-    "AI 算力需求長期樂觀"
-   ]
-  },
-  {
-   "name": "Lumentum",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "光通訊產業，受 AI 投資擴張、資本支出增加、供不應求推升價格影響。",
+   "advantage": "透過技術升級與客戶合作建立優勢",
    "claims": [],
    "narrative": [
-    "AI 投資擴張、資本支出增加、供不應求推升價格"
-   ]
-  },
-  {
-   "name": "微軟",
-   "code": "MSFT",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "科技巨頭，其雲端業務及 Copilot 訂閱數成長。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "微軟雲端業務及 Copilot 訂閱數成長"
-    }
-   ],
-   "narrative": [
-    "透過帳務調整支撐獲利"
-   ]
-  },
-  {
-   "name": "Meta",
-   "code": "META",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "科技巨頭，其營收創新高但 EPS 低於預期。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "Meta 營收創新高"
-    }
-   ],
-   "narrative": [
-    "難有短期變現策略"
+    "未來成長性看好",
+    "提供更高精度、全自動化的光學量測"
    ]
   }
  ]
