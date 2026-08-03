@@ -1,4 +1,22 @@
 {
- "date": "2026-08-03",
- "stocks": []
+ "date": "2026-08-04",
+ "stocks": [
+  {
+   "name": "MPWR",
+   "code": "MPWR",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "AI 資料中心需求強勁，營收創新高，管理層上修全年成長預期。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "AI 資料中心需求強勁，營收創新高"
+    }
+   ],
+   "narrative": [
+    "管理層上修全年成長預期"
+   ]
+  }
+ ]
 }
