@@ -1,21 +1,24 @@
 {
- "date": "2026-08-04",
+ "date": "2026-08-05",
  "stocks": [
   {
-   "name": "MPWR",
-   "code": "MPWR",
+   "name": "P a n t h e r",
+   "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "AI 資料中心需求強勁，營收創新高，管理層上修全年成長預期。",
+   "advantage": "AI 軟體變現能力強，其 AI 平台 AIP 滲透率提升，商業及政府訂單均強勁。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "AI 資料中心需求強勁，營收創新高"
+     "text": "P a n t h e r 財報營收年增 93%，遠超預期"
     }
    ],
    "narrative": [
-    "管理層上修全年成長預期"
+    "AI 變現能力",
+    "AI 平台 AIP 滲透率提升",
+    "商業及政府訂單均強勁",
+    "估值回調後可分批佈局，但波動大"
    ]
   }
  ]
