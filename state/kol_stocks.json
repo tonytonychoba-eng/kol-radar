@@ -1,47 +1,103 @@
 {
- "date": "2026-08-06",
+ "date": "2026-08-07",
  "stocks": [
   {
-   "name": "續創",
-   "code": "6274",
+   "name": "Palantir",
+   "code": "",
    "channels": [
-    "股癌"
+    "M觀點"
    ],
-   "advantage": "光通訊元件的供應商，受惠於中國出貨光通元件可能被禁的潛在影響。",
-   "claims": [],
-   "narrative": [
-    "中國出貨光通元件可能被禁"
-   ]
-  },
-  {
-   "name": "新益盛",
-   "code": "5264",
-   "channels": [
-    "股癌"
-   ],
-   "advantage": "光通訊元件的供應商，受惠於中國出貨光通元件可能被禁的潛在影響。",
-   "claims": [],
-   "narrative": [
-    "中國出貨光通元件可能被禁"
-   ]
-  },
-  {
-   "name": "AMD",
-   "code": "2455",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "資料中心營收翻倍，是AI趨勢下的受惠者。",
+   "advantage": "其 AI 平台為企業創造真實價值，並將繼續獲利。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "資料中心營收年增107%"
+     "text": "Q2 財報營收年增 92.8%"
+    },
+    {
+     "type": "price_break",
+     "text": "股價大漲"
     }
    ],
    "narrative": [
-    "市場應拉回布局",
-    "長期成長動能可期",
-    "需觀察未來系統級產品的獲利能力"
+    "AI 應用領域的實質價值",
+    "舊客戶留存率創紀錄"
+   ]
+  },
+  {
+   "name": "SpaceX",
+   "code": "",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "AI 部門、Starlink 成長，虧損收窄。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Q2 財報不錯（營收、AI 部門、Starlink 成長）"
+    },
+    {
+     "type": "revenue_up",
+     "text": "AI 部門營收年增 248%"
+    }
+   ],
+   "narrative": [
+    "潛在短期賣壓，長線成長看好",
+    "預計第三季營運現金流打平，明年營收有望達 1500-2000 億美元",
+    "受惠於衛星通訊需求"
+   ]
+  },
+  {
+   "name": "聯發科",
+   "code": "2454",
+   "channels": [
+    "財報狗"
+   ],
+   "advantage": "上調 AI ASIC 訂單預期。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "上調 AI ASIC 訂單預期"
+    }
+   ],
+   "narrative": [
+    "AI ASIC 市場將持續正向循環"
+   ]
+  },
+  {
+   "name": "Sandisk",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "財報亮眼。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "財報營收、毛利率、EPS 數據"
+    }
+   ],
+   "narrative": [
+    "AI 產業長線趨勢明確",
+    "存儲需求確定但需耐心布局",
+    "受惠於 SpaceX 獨家晶片聲明 (NVIDIA 受惠)"
+   ]
+  },
+  {
+   "name": "Western Digital",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "財報亮眼。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "財報亮眼"
+    }
+   ],
+   "narrative": [
+    "AI 產業長線趨勢明確",
+    "存儲需求確定但需耐心布局"
    ]
   }
  ]
