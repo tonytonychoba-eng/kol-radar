@@ -1,4 +1,42 @@
 {
- "date": "2026-08-11",
- "stocks": []
+ "date": "2026-08-12",
+ "stocks": [
+  {
+   "name": "Nvidia",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "Nvidia 啟動大規模 AI 融資計畫，顯示其在 AI 算力基礎設施領域的領導地位與擴張野心。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Nvidia 啟動 5000 億美元 AI 融資計畫"
+    }
+   ],
+   "narrative": [
+    "AI 算力基礎設施領導者",
+    "市場對其高估值存在疑慮",
+    "應以長期投資眼光看待"
+   ]
+  },
+  {
+   "name": "Intel",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "Intel 宣布募資以擴大 AI 相關業務，顯示其在 AI 產業鏈中的投入與布局。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Intel 宣布募資 150 億美元"
+    }
+   ],
+   "narrative": [
+    "AI 擴產將帶動相關設備、材料、先進封裝的投資",
+    "市場對其股權稀釋和融資的落地時間存在擔憂"
+   ]
+  }
+ ]
 }
