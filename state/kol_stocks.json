@@ -1,41 +1,90 @@
 {
- "date": "2026-08-12",
+ "date": "2026-08-13",
  "stocks": [
   {
-   "name": "Nvidia",
+   "name": "Lumentum",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "Nvidia 啟動大規模 AI 融資計畫，顯示其在 AI 算力基礎設施領域的領導地位與擴張野心。",
+   "advantage": "受惠於 800G/1.6T 升級及超大型雲端客戶建置需求，營收與獲利爆發。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "Nvidia 啟動 5000 億美元 AI 融資計畫"
+     "text": "單季營收年增近倍"
+    },
+    {
+     "type": "revenue_up",
+     "text": "毛利率破 50%"
     }
    ],
    "narrative": [
-    "AI 算力基礎設施領導者",
-    "市場對其高估值存在疑慮",
-    "應以長期投資眼光看待"
+    "AI 產業鏈的關鍵贏家",
+    "受惠於規格升級與市場擴張",
+    "AI 基礎建設的資本支出和需求將持續驅動獲利機會"
    ]
   },
   {
-   "name": "Intel",
+   "name": "CoreWeave",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "Intel 宣布募資以擴大 AI 相關業務，顯示其在 AI 產業鏈中的投入與布局。",
+   "advantage": "AI 算力需求增加，營收與獲利爆發。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "Intel 宣布募資 150 億美元"
+     "text": "營收年增 112%"
+    },
+    {
+     "type": "revenue_up",
+     "text": "積壓訂單 1040 億美元"
     }
    ],
    "narrative": [
-    "AI 擴產將帶動相關設備、材料、先進封裝的投資",
-    "市場對其股權稀釋和融資的落地時間存在擔憂"
+    "AI 產業鏈的關鍵贏家",
+    "受惠於規格升級與市場擴張",
+    "AI 基礎建設的資本支出和需求將持續驅動獲利機會"
+   ]
+  },
+  {
+   "name": "台達電",
+   "code": "",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "AI 電源相關供應商。",
+   "claims": [],
+   "narrative": [
+    "AI 概念",
+    "AI Power",
+    "基建供應商"
+   ]
+  },
+  {
+   "name": "智邦",
+   "code": "",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "AI 相關供應商。",
+   "claims": [],
+   "narrative": [
+    "AI 概念",
+    "基建供應商"
+   ]
+  },
+  {
+   "name": "貿聯 KY",
+   "code": "",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "AI 相關供應商。",
+   "claims": [],
+   "narrative": [
+    "AI 概念",
+    "基建供應商"
    ]
   }
  ]
