@@ -1,26 +1,128 @@
 {
- "date": "2026-08-27",
+ "date": "2026-08-28",
  "stocks": [
   {
-   "name": "NVIDIA",
-   "code": "",
+   "name": "輝達",
+   "code": "NVDA",
    "channels": [
+    "游庭皓",
+    "財報狗",
     "財女珍妮"
    ],
-   "advantage": "AI需求持續加速並擴散，資料中心客戶結構多元化，預示著AI基礎建設將持續增長。",
+   "advantage": "輝達預估下個財年營收將有大幅成長，且其財報展望和直球對決的溝通方式能穩固AI產業的軍心。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "第二季營收962億美元，年增106%"
+     "text": "輝達預估下個財年營收成長70%"
     },
     {
      "type": "revenue_up",
-     "text": "資料中心營收890億美元，年增117%"
+     "text": "輝達財報展望樂觀"
     }
    ],
    "narrative": [
-    "AI需求擴散趨勢合理",
-    "對輝達未來不悲觀"
+    "輝達財報顯示市場低估其營收",
+    "市場將是多元競爭，GPU仍有系統整合與軟體優勢",
+    "AI 需求長期向上",
+    "帶動新技術（Agentic AI、3D 堆疊、FOPLP）發展與應用",
+    "AI 訊號顯示，傳統軟體與資安產業並未被取代，而是走向與 AI 互補的新階段",
+    "輝達財報優異帶動 AI 相關股上漲",
+    "資金流向具備擴張潛力與良好現金流的 AI 鏈相關產業"
+   ]
+  },
+  {
+   "name": "Salesforce",
+   "code": "CRM",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "Salesforce 的營收、EPS、剩餘履約義務均超乎預期，且管理層對 AI 合作態度樂觀。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Salesforce 營收超預期"
+    },
+    {
+     "type": "revenue_up",
+     "text": "Salesforce EPS 超預期"
+    },
+    {
+     "type": "revenue_up",
+     "text": "Salesforce 剩餘履約義務超預期"
+    }
+   ],
+   "narrative": [
+    "AI agent 不會取代傳統企業軟體",
+    "AI 與軟體是互補關係"
+   ]
+  },
+  {
+   "name": "CrowdStrike",
+   "code": "CRWD",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "CrowdStrike 營收、EPS、ARR 均超乎預期，且具有平台擴張的飛輪效應，在 AI 趨勢下扮演重要角色。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "CrowdStrike 營收超預期"
+    },
+    {
+     "type": "revenue_up",
+     "text": "CrowdStrike EPS 超預期"
+    },
+    {
+     "type": "revenue_up",
+     "text": "CrowdStrike ARR 超預期"
+    }
+   ],
+   "narrative": [
+    "CrowdStrike 具有平台擴張飛輪效應",
+    "CrowdStrike 是 AI 趨勢下的重要防禦、驗證與管理角色"
+   ]
+  },
+  {
+   "name": "Okta",
+   "code": "OKTA",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "Okta 營收、EPS 均超乎預期，AI agent 帶來潛在安全商機。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Okta 營收超預期"
+    },
+    {
+     "type": "revenue_up",
+     "text": "Okta EPS 超預期"
+    }
+   ],
+   "narrative": [
+    "Okta 是 AI 趨勢下的重要防禦、驗證與管理角色"
+   ]
+  },
+  {
+   "name": "Marvell",
+   "code": "MRVL",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "Marvell 營運狀況良好，資料中心仍是主要成長動能，未來成長動能仍在。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Marvell 營收優於預期"
+    },
+    {
+     "type": "revenue_up",
+     "text": "Marvell EPS 優於預期"
+    }
+   ],
+   "narrative": [
+    "Marvell 股價下跌因預期落差，但營運狀況良好，未來成長動能仍在",
+    "資料中心仍是主要成長動能"
    ]
   }
  ]
