@@ -1,4 +1,47 @@
 {
- "date": "2026-08-29",
- "stocks": []
+ "date": "2026-08-30",
+ "stocks": [
+  {
+   "name": "輝達",
+   "code": "NVDA",
+   "channels": [
+    "股癌",
+    "財經M平方"
+   ],
+   "advantage": "透過採購元件數量遠超需求，擠壓對手，維持GPU的競爭優勢，且AI ASIC發展不代表GPU衰退。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "財報營收962億美元，Hyper Scaler 佔一半"
+    },
+    {
+     "type": "revenue_up",
+     "text": "主權 AI 年增率 300% 以上"
+    },
+    {
+     "type": "revenue_up",
+     "text": "預計第三季供應鏈庫存將開始下降"
+    }
+   ],
+   "narrative": [
+    "GPU 仍具競爭優勢",
+    "AI ASIC 發展會吃掉部分 GPU 市佔",
+    "AI ASIC 發展不代表 GPU 衰退",
+    "算力證券化能加速產業發展，但也擴大系統性風險",
+    "Blackwell 預計 8 月起量產"
+   ]
+  },
+  {
+   "name": "AMD",
+   "code": "AMD",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "Hapanel 晶片測試報告，顯示其在AI領域的發展與佈局。",
+   "claims": [],
+   "narrative": [
+    "Hapanel 晶片測試報告"
+   ]
+  }
+ ]
 }
