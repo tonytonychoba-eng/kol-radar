@@ -1,150 +1,22 @@
 {
- "date": "2026-09-03",
+ "date": "2026-09-04",
  "stocks": [
   {
-   "name": "聯發科",
-   "code": "2454",
-   "channels": [
-    "股癌"
-   ],
-   "advantage": "透過發行可轉債吸引 NVIDIA 和 Alpha Battle 投資，顯示其在 AI 領域的戰略佈局。",
-   "claims": [],
-   "narrative": [
-    "發行鉅額可轉債吸引 NVIDIA 和 Alpha Battle 投資"
-   ]
-  },
-  {
-   "name": "NVIDIA",
-   "code": "",
-   "channels": [
-    "股癌",
-    "財女珍妮"
-   ],
-   "advantage": "積極佈局 AI 晶片與客製化 XPU，並推出 NVHBM 記憶體技術，是 AI 產業的關鍵參與者。",
-   "claims": [],
-   "narrative": [
-    "戰略佈局 AI 晶片與客製化 XPU",
-    "推出 NVHBM 記憶體技術",
-    "過去有高年化報酬率，但波動較大"
-   ]
-  },
-  {
-   "name": "Broadcom",
-   "code": "AVGO",
-   "channels": [
-    "股癌"
-   ],
-   "advantage": "在 AI 產業中有重要的動態，市場持續關注其未來發展。",
-   "claims": [],
-   "narrative": [
-    "市場關注其未來動態"
-   ]
-  },
-  {
-   "name": "DELL",
+   "name": "博通",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "AI 伺服器營收年增一倍，全年營收預估調高，顯示其在 AI 基礎建設領域需求強勁。",
+   "advantage": "網路晶片和AI伺服器業務受AI趨勢帶動，且估值便宜。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "第二季營收年增58%"
-    },
-    {
-     "type": "revenue_up",
-     "text": "AI 伺服器營收年增一倍"
+     "text": "AI伺服器、客製化晶片、網路晶片業務受AI帶動的成長"
     }
    ],
    "narrative": [
-    "AI 伺服器、儲存設備、網路需求強勁帶動相關硬體",
-    "股價因財報和財測調高而上漲，但估值仍受大盤影響"
-   ]
-  },
-  {
-   "name": "Apple",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "在動盪時期，受惠於大型股穩健策略，表現相對穩健。",
-   "claims": [],
-   "narrative": [
-    "受惠於大型股穩健策略，在動盪時期表現相對穩健"
-   ]
-  },
-  {
-   "name": "Amazon",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "在動盪時期，受惠於大型股穩健策略，表現相對穩健。",
-   "claims": [],
-   "narrative": [
-    "受惠於大型股穩健策略，在動盪時期表現相對穩健"
-   ]
-  },
-  {
-   "name": "Google",
-   "code": "",
-   "channels": [
-    "股癌",
-    "財女珍妮"
-   ],
-   "advantage": "在動盪時期，受惠於大型股穩健策略，表現相對穩健。",
-   "claims": [],
-   "narrative": [
-    "受惠於大型股穩健策略，在動盪時期表現相對穩健"
-   ]
-  },
-  {
-   "name": "Microsoft",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "在動盪時期，受惠於大型股穩健策略，表現相對穩健。",
-   "claims": [],
-   "narrative": [
-    "受惠於大型股穩健策略，在動盪時期表現相對穩健"
-   ]
-  },
-  {
-   "name": "Tesla",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "過去有高年化報酬率，但需面臨市場競爭與新變現模式。",
-   "claims": [],
-   "narrative": [
-    "過去有高年化報酬率，但需面臨市場競爭與新變現模式"
-   ]
-  },
-  {
-   "name": "Ciena",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "在光通訊領域有潛在的討論價值。",
-   "claims": [],
-   "narrative": [
-    "在光通訊領域有潛在的討論價值"
-   ]
-  },
-  {
-   "name": "CrowdStrike",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "在軟體資安領域有潛在的討論價值。",
-   "claims": [],
-   "narrative": [
-    "在軟體資安領域有潛在的討論價值"
+    "預測博通估值便宜，長期具確定性",
+    "擔憂博通租賃擔保風險"
    ]
   }
  ]
