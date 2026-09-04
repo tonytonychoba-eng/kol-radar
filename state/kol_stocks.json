@@ -1,22 +1,51 @@
 {
- "date": "2026-09-04",
+ "date": "2026-09-05",
  "stocks": [
   {
-   "name": "博通",
+   "name": "NVIDIA",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "網路晶片和AI伺服器業務受AI趨勢帶動，且估值便宜。",
+   "advantage": "透過收購 Hugging Face，NVIDIA 意圖從單純的 GPU 供應商轉型為 AI 平台及生態系的掌控者，以鞏固其護城河並開拓持續性收入。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "AI伺服器、客製化晶片、網路晶片業務受AI帶動的成長"
+     "text": "NVIDIA 收購 Hugging Face 能創造更大需求，帶動其他產品成長"
+    },
+    {
+     "type": "price_break",
+     "text": "NVIDIA 股價有向上的空間"
     }
    ],
    "narrative": [
-    "預測博通估值便宜，長期具確定性",
-    "擔憂博通租賃擔保風險"
+    "意圖從 GPU 供應商轉型為 AI 平台及生態系掌控者",
+    "鞏固其護城河",
+    "開拓持續性收入",
+    "整合從模型到部署的生態系",
+    "鞏固價值鏈",
+    "提升毛利率"
+   ]
+  },
+  {
+   "name": "Snowflake",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "Snowflake 在雲端數據處理和 AI 應用支援方面表現強勁，其營收成長優於預期，AI 貢獻成長顯著。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Snowflake 營收成長 35-37%，高於預期"
+    },
+    {
+     "type": "revenue_up",
+     "text": "AI 貢獻成長一半"
+    }
+   ],
+   "narrative": [
+    "成長趨勢可持續"
    ]
   }
  ]
