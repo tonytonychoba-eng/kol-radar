@@ -1,4 +1,68 @@
 {
- "date": "2026-09-07",
- "stocks": []
+ "date": "2026-09-08",
+ "stocks": [
+  {
+   "name": "輝達",
+   "code": "",
+   "channels": [
+    "M觀點",
+    "財女珍妮"
+   ],
+   "advantage": "透過策略性投資及併購，從硬體延伸至軟體平台與生態系，擴大護城河。",
+   "claims": [],
+   "narrative": [
+    "透過策略性投資鞏固其在AI生態系的護城河",
+    "輝達對聯發科和Hugging Face的投資可建立長線護城河，且不構成實質循環融資風險"
+   ]
+  },
+  {
+   "name": "特斯拉",
+   "code": "",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "Cybercab上線預示著Robotaxi業務將加速擴張。",
+   "claims": [],
+   "narrative": [
+    "Cybercab上線則預示著Robotaxi業務將加速擴張",
+    "Cybercab推廣速度會很快，預計至年底全美將有300-500台，明年可達5000台"
+   ]
+  },
+  {
+   "name": "美光",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "AI需求帶動半導體需求。",
+   "claims": [],
+   "narrative": [
+    "AI需求旺盛，OpenAI新模型加劇算力需求，利好半導體"
+   ]
+  },
+  {
+   "name": "AMD",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "AI需求帶動半導體需求。",
+   "claims": [],
+   "narrative": [
+    "AI需求旺盛，OpenAI新模型加劇算力需求，利好半導體"
+   ]
+  },
+  {
+   "name": "Intel",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "AI需求帶動半導體需求。",
+   "claims": [],
+   "narrative": [
+    "AI需求旺盛，OpenAI新模型加劇算力需求，利好半導體"
+   ]
+  }
+ ]
 }
