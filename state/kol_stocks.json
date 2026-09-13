@@ -1,36 +1,4 @@
 {
- "date": "2026-09-13",
- "stocks": [
-  {
-   "name": "新日興",
-   "code": "3376",
-   "channels": [
-    "股癌"
-   ],
-   "advantage": "為 iPhone Duo 供應鉸鏈。",
-   "claims": [],
-   "narrative": [
-    "iPhone Duo 銷量將超出預期"
-   ]
-  },
-  {
-   "name": "NVIDIA",
-   "code": "",
-   "channels": [
-    "財經M平方"
-   ],
-   "advantage": "透過融資平台提供信用擔保，滿足算力需求。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "擴大採購義務至 2790 億美元"
-    }
-   ],
-   "narrative": [
-    "擴大採購義務",
-    "潛在系統性風險需關注",
-    "3.5 兆美元資金中，多數為採購義務與租賃協議"
-   ]
-  }
- ]
+ "date": "2026-09-14",
+ "stocks": []
 }
