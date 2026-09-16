@@ -1,46 +1,16 @@
 {
- "date": "2026-09-16",
+ "date": "2026-09-17",
  "stocks": [
   {
-   "name": "微軟",
-   "code": "",
+   "name": "Skyworks",
+   "code": "SWKS",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "AI 發展不會因安全疑慮而停滯，反而刺激資安產業需求，微軟在其中逆勢上漲。",
+   "advantage": "估值較低，合併案或新品效應有潛在機會",
    "claims": [],
    "narrative": [
-    "AI 發展持續，間接帶動資安需求",
-    "AI 股能止跌",
-    "趨勢持續向上"
-   ]
-  },
-  {
-   "name": "Google",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 發展不會因安全疑慮而停滯，反而刺激資安產業需求，Google 在其中逆勢上漲。",
-   "claims": [],
-   "narrative": [
-    "AI 發展持續，間接帶動資安需求",
-    "AI 股能止跌",
-    "趨勢持續向上"
-   ]
-  },
-  {
-   "name": "Meta",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 發展不會因安全疑慮而停滯，反而刺激資安產業需求，Meta 在其中逆勢上漲。",
-   "claims": [],
-   "narrative": [
-    "AI 發展持續，間接帶動資安需求",
-    "AI 股能止跌",
-    "趨勢持續向上"
+    "因合併案及估值吸引力上漲"
    ]
   }
  ]
