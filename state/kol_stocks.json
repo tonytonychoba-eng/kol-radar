@@ -1,32 +1,27 @@
 {
- "date": "2026-09-18",
+ "date": "2026-09-19",
  "stocks": [
   {
-   "name": "NVIDIA",
-   "code": "4231",
+   "name": "Nvidia",
+   "code": "",
    "channels": [
-    "M觀點",
-    "股市隱者"
+    "財女珍妮"
    ],
-   "advantage": "AI 產業的關鍵參與者，其 Cuda 平台是 AI 發展的重要基礎。",
-   "claims": [],
-   "narrative": [
-    "NVIDIA 與 Palantir 合作，將 Palantir 平台與 NVIDIA 的開源模型結合，用於供應鏈管理。",
-    "Cuda 平台是 AI 發展的重要基礎。",
-    "AI 產業的關鍵參與者。"
-   ]
-  },
-  {
-   "name": "Palantir",
-   "code": "PLTR",
-   "channels": [
-    "M觀點"
+   "advantage": "Nvidia 預期明年晶片出貨量為今年兩倍，顯示其在 AI 產業中的領導地位與強勁需求。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Nvidia 預期明年晶片出貨量為今年兩倍"
+    },
+    {
+     "type": "price_break",
+     "text": "Nvidia 股價表現強勁"
+    }
    ],
-   "advantage": "與 NVIDIA 合作，將 AI 平台應用於供應鏈管理。",
-   "claims": [],
    "narrative": [
-    "Palantir 與 NVIDIA 宣布合作，將 Palantir 平台與 NVIDIA 的開源模型結合，用於供應鏈管理。",
-    "Palantir 的 AI 平台 (AIP)。"
+    "AI 產業正從單純算力競爭轉向推論、AI 代理時代",
+    "AI 基礎建設 (CPU, GPU, HBM, 網路, 散熱, 數據中心) 將同步上揚",
+    "CPU 重要性提升"
    ]
   }
  ]
