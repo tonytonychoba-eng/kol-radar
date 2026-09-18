@@ -1,16 +1,32 @@
 {
- "date": "2026-09-17",
+ "date": "2026-09-18",
  "stocks": [
   {
-   "name": "Skyworks",
-   "code": "SWKS",
+   "name": "NVIDIA",
+   "code": "4231",
    "channels": [
-    "財女珍妮"
+    "M觀點",
+    "股市隱者"
    ],
-   "advantage": "估值較低，合併案或新品效應有潛在機會",
+   "advantage": "AI 產業的關鍵參與者，其 Cuda 平台是 AI 發展的重要基礎。",
    "claims": [],
    "narrative": [
-    "因合併案及估值吸引力上漲"
+    "NVIDIA 與 Palantir 合作，將 Palantir 平台與 NVIDIA 的開源模型結合，用於供應鏈管理。",
+    "Cuda 平台是 AI 發展的重要基礎。",
+    "AI 產業的關鍵參與者。"
+   ]
+  },
+  {
+   "name": "Palantir",
+   "code": "PLTR",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "與 NVIDIA 合作，將 AI 平台應用於供應鏈管理。",
+   "claims": [],
+   "narrative": [
+    "Palantir 與 NVIDIA 宣布合作，將 Palantir 平台與 NVIDIA 的開源模型結合，用於供應鏈管理。",
+    "Palantir 的 AI 平台 (AIP)。"
    ]
   }
  ]
