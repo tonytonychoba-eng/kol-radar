@@ -1,28 +1,4 @@
 {
- "date": "2026-09-19",
- "stocks": [
-  {
-   "name": "Nvidia",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "Nvidia 預期明年晶片出貨量為今年兩倍，顯示其在 AI 產業中的領導地位與強勁需求。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "Nvidia 預期明年晶片出貨量為今年兩倍"
-    },
-    {
-     "type": "price_break",
-     "text": "Nvidia 股價表現強勁"
-    }
-   ],
-   "narrative": [
-    "AI 產業正從單純算力競爭轉向推論、AI 代理時代",
-    "AI 基礎建設 (CPU, GPU, HBM, 網路, 散熱, 數據中心) 將同步上揚",
-    "CPU 重要性提升"
-   ]
-  }
- ]
+ "date": "2026-09-20",
+ "stocks": []
 }
