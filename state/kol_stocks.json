@@ -1,69 +1,60 @@
 {
- "date": "2026-09-23",
+ "date": "2026-09-24",
  "stocks": [
   {
-   "name": "AMD",
-   "code": "2330",
+   "name": "聯發科",
+   "code": "2454",
    "channels": [
-    "游庭皓",
     "財女珍妮"
    ],
-   "advantage": "AMD 在 AI 代理人需求爆發的趨勢下，成為 Meta 的第二大客戶，帶動 GPU、CPU 等半導體需求，股價飆升。",
-   "claims": [
-    {
-     "type": "price_break",
-     "text": "AMD 市值破兆"
-    },
-    {
-     "type": "revenue_up",
-     "text": "AMD 成為 Meta 第二大客戶"
-    }
-   ],
+   "advantage": "AI 應用將帶動半導體硬體需求。",
+   "claims": [],
    "narrative": [
-    "AI 代理人需求爆發，帶動半導體產業，AMD 成為焦點。",
-    "AMD 獲利有信心。"
+    "AI 代理的出現將改變消費者行為和企業獲利模式，對科技與消費產業將產生結構性影響。",
+    "AI 應用將帶動半導體硬體需求。",
+    "台股 AI 概念股輪動，聯發科表現強勁。"
    ]
   },
   {
-   "name": "Meta",
-   "code": "",
+   "name": "創意",
+   "code": "3443",
    "channels": [
-    "游庭皓",
     "財女珍妮"
    ],
-   "advantage": "Meta 旗下的 Muse AI 助理成功，引爆對 AI 代理人的潛力期待，帶動相關半導體需求。",
-   "claims": [
-    {
-     "type": "price_break",
-     "text": "Meta 股價狂飆"
-    },
-    {
-     "type": "revenue_up",
-     "text": "Meta 旗下產品月活躍用戶 36 億"
-    }
-   ],
+   "advantage": "AI 應用將帶動半導體硬體需求。",
+   "claims": [],
    "narrative": [
-    "AI 代理人需求爆發，Meta 成為焦點。",
-    "Meta Muse AI 助理成功，引爆對 AI 代理人潛力期待。"
+    "AI 代理的出現將改變消費者行為和企業獲利模式，對科技與消費產業將產生結構性影響。",
+    "AI 應用將帶動半導體硬體需求。",
+    "台股 AI 概念股輪動，創意表現強勁。"
    ]
   },
   {
-   "name": "Intel",
-   "code": "",
+   "name": "日月光",
+   "code": "2311",
    "channels": [
-    "游庭皓",
     "財女珍妮"
    ],
-   "advantage": "Intel 在 AI 代理人需求爆發的趨勢下，受惠於 GPU、CPU 等半導體需求增加，股價飆升。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "Intel 晶片需求供不應求"
-    }
-   ],
+   "advantage": "AI 應用將帶動半導體硬體需求。",
+   "claims": [],
    "narrative": [
-    "Intel 潛在與台積電合作。",
-    "美國政府支持 Intel。"
+    "AI 代理的出現將改變消費者行為和企業獲利模式，對科技與消費產業將產生結構性影響。",
+    "AI 應用將帶動半導體硬體需求。",
+    "台股 AI 概念股輪動，日月光表現強勁。"
+   ]
+  },
+  {
+   "name": "漢唐",
+   "code": "3202",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "AI 應用將帶動半導體硬體需求。",
+   "claims": [],
+   "narrative": [
+    "AI 代理的出現將改變消費者行為和企業獲利模式，對科技與消費產業將產生結構性影響。",
+    "AI 應用將帶動半導體硬體需求。",
+    "台股 AI 概念股輪動，漢唐表現強勁。"
    ]
   }
  ]
