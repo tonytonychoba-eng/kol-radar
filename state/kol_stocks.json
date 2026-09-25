@@ -1,60 +1,112 @@
 {
- "date": "2026-09-24",
+ "date": "2026-09-25",
  "stocks": [
   {
-   "name": "聯發科",
-   "code": "2454",
+   "name": "輝達",
+   "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "AI 應用將帶動半導體硬體需求。",
+   "advantage": "短期受殖利率上漲壓力，但其AI相關應用為產業線索",
    "claims": [],
    "narrative": [
-    "AI 代理的出現將改變消費者行為和企業獲利模式，對科技與消費產業將產生結構性影響。",
-    "AI 應用將帶動半導體硬體需求。",
-    "台股 AI 概念股輪動，聯發科表現強勁。"
+    "AI相關產業"
    ]
   },
   {
-   "name": "創意",
-   "code": "3443",
+   "name": "博通",
+   "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "AI 應用將帶動半導體硬體需求。",
+   "advantage": "短期受殖利率上漲壓力，但其AI相關應用為產業線索",
    "claims": [],
    "narrative": [
-    "AI 代理的出現將改變消費者行為和企業獲利模式，對科技與消費產業將產生結構性影響。",
-    "AI 應用將帶動半導體硬體需求。",
-    "台股 AI 概念股輪動，創意表現強勁。"
+    "AI相關產業"
    ]
   },
   {
-   "name": "日月光",
-   "code": "2311",
+   "name": "AI伺服器",
+   "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "AI 應用將帶動半導體硬體需求。",
+   "advantage": "短期受殖利率上漲壓力，但其AI相關應用為產業線索",
    "claims": [],
    "narrative": [
-    "AI 代理的出現將改變消費者行為和企業獲利模式，對科技與消費產業將產生結構性影響。",
-    "AI 應用將帶動半導體硬體需求。",
-    "台股 AI 概念股輪動，日月光表現強勁。"
+    "AI相關產業"
    ]
   },
   {
-   "name": "漢唐",
-   "code": "3202",
+   "name": "散熱",
+   "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "AI 應用將帶動半導體硬體需求。",
+   "advantage": "短期受殖利率上漲壓力，但其AI相關應用為產業線索",
    "claims": [],
    "narrative": [
-    "AI 代理的出現將改變消費者行為和企業獲利模式，對科技與消費產業將產生結構性影響。",
-    "AI 應用將帶動半導體硬體需求。",
-    "台股 AI 概念股輪動，漢唐表現強勁。"
+    "AI相關產業"
+   ]
+  },
+  {
+   "name": "載板",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "短期受殖利率上漲壓力，但其AI相關應用為產業線索",
+   "claims": [],
+   "narrative": [
+    "AI相關產業"
+   ]
+  },
+  {
+   "name": "CrowdStrike",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "因穩健成長及需求預期，獲機構看好",
+   "claims": [],
+   "narrative": [
+    "資安產業的中長期發展"
+   ]
+  },
+  {
+   "name": "Palo Alto Networks",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "因穩健成長及需求預期，獲機構看好",
+   "claims": [],
+   "narrative": [
+    "資安產業的中長期發展"
+   ]
+  },
+  {
+   "name": "Fortinet",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "因穩健成長及需求預期，獲機構看好",
+   "claims": [],
+   "narrative": [
+    "資安產業的中長期發展"
+   ]
+  },
+  {
+   "name": "Cloudflare",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "因穩健成長及需求預期，獲機構看好",
+   "claims": [],
+   "narrative": [
+    "資安產業的中長期發展"
    ]
   }
  ]
