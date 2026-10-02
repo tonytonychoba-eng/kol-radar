@@ -1,209 +1,98 @@
 {
- "date": "2026-10-01",
+ "date": "2026-10-02",
  "stocks": [
   {
-   "name": "NVIDIA",
+   "name": "美光",
    "code": "",
    "channels": [
     "游庭皓",
     "財女珍妮"
    ],
-   "advantage": "AI 相關企業的資本支出快速成長，是 AI 投資潮下的主要受益者。",
+   "advantage": "美光財報與財測超出預期，顯示其在 AI 相關記憶體和儲存產品的需求強勁。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "AI 相關企業（如 NVIDIA）資本支出快速成長"
-    }
-   ],
-   "narrative": [
-    "AI 投資潮下的主要受益者"
-   ]
-  },
-  {
-   "name": "Meta",
-   "code": "",
-   "channels": [
-    "游庭皓",
-    "財女珍妮"
-   ],
-   "advantage": "AI 需求推升其資本支出，並積極佈局 AI 代理人。",
-   "claims": [
+     "text": "美光財報與財測超出預期"
+    },
     {
      "type": "revenue_up",
-     "text": "AI 相關企業（如 Meta）資本支出快速成長"
+     "text": "HBM 和資料中心 SSD 需求強勁"
     }
    ],
    "narrative": [
-    "積極佈局 AI 代理人"
-   ]
-  },
-  {
-   "name": "Google",
-   "code": "",
-   "channels": [
-    "游庭皓",
-    "財女珍妮"
-   ],
-   "advantage": "AI 需求推升其資本支出，並積極發展 AI 相關技術。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "AI 相關企業（如 Google）資本支出快速成長"
-    }
-   ],
-   "narrative": [
-    "積極發展 AI 相關技術",
-    "後續會推出 AI 代理人"
-   ]
-  },
-  {
-   "name": "Oracle",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 需求推升其資本支出。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "AI 相關企業（如 Oracle）資本支出快速成長"
-    }
-   ],
-   "narrative": []
-  },
-  {
-   "name": "Amazon",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 需求推升其資本支出。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "AI 相關企業（如 Amazon）資本支出快速成長"
-    }
-   ],
-   "narrative": []
-  },
-  {
-   "name": "Microsoft",
-   "code": "",
-   "channels": [
-    "游庭皓"
-   ],
-   "advantage": "AI 需求推升其資本支出。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "AI 相關企業（如 Microsoft）資本支出快速成長"
-    }
-   ],
-   "narrative": []
-  },
-  {
-   "name": "萬潤",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 概念股，受惠於 AI 基礎建設需求成長。",
-   "claims": [],
-   "narrative": [
-    "AI 設備股",
-    "受惠於 AI 基礎建設需求持續成長"
-   ]
-  },
-  {
-   "name": "瑞雲",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 概念股，受惠於 AI 基礎建設需求成長。",
-   "claims": [],
-   "narrative": [
-    "AI 設備股",
-    "受惠於 AI 基礎建設需求持續成長"
-   ]
-  },
-  {
-   "name": "泰森",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 概念股，受惠於 AI 基礎建設需求成長。",
-   "claims": [],
-   "narrative": [
-    "AI 設備股",
-    "受惠於 AI 基礎建設需求持續成長"
-   ]
-  },
-  {
-   "name": "君豪",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "AI 概念股，受惠於 AI 基礎建設需求成長。",
-   "claims": [],
-   "narrative": [
-    "AI 設備股",
-    "受惠於 AI 基礎建設需求持續成長"
-   ]
-  },
-  {
-   "name": "柯林研發",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "半導體設備廠，受惠於 AI 帶動的基礎建設需求。",
-   "claims": [],
-   "narrative": [
-    "半導體設備",
-    "受惠於 AI 基礎建設需求持續成長"
-   ]
-  },
-  {
-   "name": "SMC",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "半導體設備廠，受惠於 AI 帶動的基礎建設需求。",
-   "claims": [],
-   "narrative": [
-    "半導體設備",
-    "受惠於 AI 基礎建設需求持續成長"
+    "AI 系統對記憶體及儲存的高度依賴"
    ]
   },
   {
    "name": "台積電",
    "code": "",
    "channels": [
-    "財女珍妮"
+    "財報狗"
    ],
-   "advantage": "AI 晶片製造龍頭，擴廠消息帶動設備股，是 AI 產業鏈關鍵環節。",
+   "advantage": "台積電可能在德州設第二園區，廠務工程為直接受惠者。",
    "claims": [],
    "narrative": [
-    "AI 晶片製造龍頭",
-    "擴廠傳聞帶動設備股",
-    "AI 產業鏈關鍵環節"
+    "可能在德州設第二園區"
    ]
   },
   {
-   "name": "蘋果",
+   "name": "日月光",
+   "code": "",
+   "channels": [
+    "財報狗"
+   ],
+   "advantage": "預期將受惠於日月光等擴廠。",
+   "claims": [],
+   "narrative": [
+    "預期將受惠於擴廠"
+   ]
+  },
+  {
+   "name": "雙鴻",
+   "code": "",
+   "channels": [
+    "財報狗"
+   ],
+   "advantage": "NVIDIA AI 工廠認證計畫，而台灣的雙鴻、奇鋐未進入。",
+   "claims": [],
+   "narrative": [
+    "未進入 NVIDIA AI 工廠認證計畫"
+   ]
+  },
+  {
+   "name": "奇鋐",
+   "code": "",
+   "channels": [
+    "財報狗"
+   ],
+   "advantage": "NVIDIA AI 工廠認證計畫，而台灣的雙鴻、奇鋐未進入。",
+   "claims": [],
+   "narrative": [
+    "未進入 NVIDIA AI 工廠認證計畫"
+   ]
+  },
+  {
+   "name": "友達",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "儘管股價下跌，但長期發展潛力無限，受惠於 AI 發展。",
+   "advantage": "與輝達、台積電、英特爾合作的面板廠如友達、群創。",
    "claims": [],
    "narrative": [
-    "潛力無限",
-    "受惠於 AI 發展"
+    "與輝達、台積電、英特爾合作"
+   ]
+  },
+  {
+   "name": "群創",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "與輝達、台積電、英特爾合作的面板廠如友達、群創。",
+   "claims": [],
+   "narrative": [
+    "與輝達、台積電、英特爾合作"
    ]
   }
  ]
