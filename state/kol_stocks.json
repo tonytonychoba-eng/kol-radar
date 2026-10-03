@@ -1,98 +1,45 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "stocks": [
   {
    "name": "美光",
    "code": "",
    "channels": [
-    "游庭皓",
     "財女珍妮"
    ],
-   "advantage": "美光財報與財測超出預期，顯示其在 AI 相關記憶體和儲存產品的需求強勁。",
+   "advantage": "AI 帶動的需求持續，供需緊張",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "美光財報與財測超出預期"
-    },
-    {
-     "type": "revenue_up",
-     "text": "HBM 和資料中心 SSD 需求強勁"
+     "text": "財報顯示 AI 帶動的需求持續"
     }
    ],
    "narrative": [
-    "AI 系統對記憶體及儲存的高度依賴"
+    "AI 趨勢將持續帶動記憶體需求"
    ]
   },
   {
-   "name": "台積電",
-   "code": "",
-   "channels": [
-    "財報狗"
-   ],
-   "advantage": "台積電可能在德州設第二園區，廠務工程為直接受惠者。",
-   "claims": [],
-   "narrative": [
-    "可能在德州設第二園區"
-   ]
-  },
-  {
-   "name": "日月光",
-   "code": "",
-   "channels": [
-    "財報狗"
-   ],
-   "advantage": "預期將受惠於日月光等擴廠。",
-   "claims": [],
-   "narrative": [
-    "預期將受惠於擴廠"
-   ]
-  },
-  {
-   "name": "雙鴻",
-   "code": "",
-   "channels": [
-    "財報狗"
-   ],
-   "advantage": "NVIDIA AI 工廠認證計畫，而台灣的雙鴻、奇鋐未進入。",
-   "claims": [],
-   "narrative": [
-    "未進入 NVIDIA AI 工廠認證計畫"
-   ]
-  },
-  {
-   "name": "奇鋐",
-   "code": "",
-   "channels": [
-    "財報狗"
-   ],
-   "advantage": "NVIDIA AI 工廠認證計畫，而台灣的雙鴻、奇鋐未進入。",
-   "claims": [],
-   "narrative": [
-    "未進入 NVIDIA AI 工廠認證計畫"
-   ]
-  },
-  {
-   "name": "友達",
+   "name": "Lumentum",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "與輝達、台積電、英特爾合作的面板廠如友達、群創。",
+   "advantage": "因 AI 基礎建設升級受惠",
    "claims": [],
    "narrative": [
-    "與輝達、台積電、英特爾合作"
+    "AI 基礎建設升級受惠"
    ]
   },
   {
-   "name": "群創",
+   "name": "Coherent",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "與輝達、台積電、英特爾合作的面板廠如友達、群創。",
+   "advantage": "因 AI 基礎建設升級受惠",
    "claims": [],
    "narrative": [
-    "與輝達、台積電、英特爾合作"
+    "AI 基礎建設升級受惠"
    ]
   }
  ]
