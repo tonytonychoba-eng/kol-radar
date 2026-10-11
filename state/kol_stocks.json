@@ -1,4 +1,71 @@
 {
- "date": "2026-10-10",
- "stocks": []
+ "date": "2026-10-11",
+ "stocks": [
+  {
+   "name": "NVIDIA",
+   "code": "",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "AI 晶片領導者",
+   "claims": [],
+   "narrative": [
+    "AI 晶片需求強勁",
+    "屬於 AI 產業鏈"
+   ]
+  },
+  {
+   "name": "AMD",
+   "code": "",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "AI 晶片領域有佈局",
+   "claims": [],
+   "narrative": [
+    "AI 晶片需求強勁",
+    "屬於 AI 產業鏈"
+   ]
+  },
+  {
+   "name": "新唐",
+   "code": "",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "伺服器管理晶片 (BMC) 龍頭",
+   "claims": [],
+   "narrative": [
+    "伺服器管理晶片 (BMC) 領域有優勢",
+    "屬於 AI 產業鏈"
+   ]
+  },
+  {
+   "name": "信華",
+   "code": "",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "伺服器管理晶片 (BMC) 產品",
+   "claims": [],
+   "narrative": [
+    "伺服器管理晶片 (BMC) 領域有優勢",
+    "屬於 AI 產業鏈"
+   ]
+  },
+  {
+   "name": "Marvell",
+   "code": "",
+   "channels": [
+    "股癌"
+   ],
+   "advantage": "光通訊元件的供應商",
+   "claims": [],
+   "narrative": [
+    "光通訊元件領域有優勢",
+    "屬於 AI 產業鏈",
+    "提供數據中心解決方案"
+   ]
+  }
+ ]
 }
