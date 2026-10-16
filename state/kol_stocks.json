@@ -1,4 +1,22 @@
 {
- "date": "2026-10-16",
- "stocks": []
+ "date": "2026-10-17",
+ "stocks": [
+  {
+   "name": "台積電",
+   "code": "2330",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "Q3營收超預期，且長期持有價值仍在。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Q3營收超預期"
+    }
+   ],
+   "narrative": [
+    "適合長期持有"
+   ]
+  }
+ ]
 }
