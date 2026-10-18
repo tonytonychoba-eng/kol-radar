@@ -1,27 +1,4 @@
 {
- "date": "2026-10-18",
- "stocks": [
-  {
-   "name": "台積電",
-   "code": "2330",
-   "channels": [
-    "財經M平方"
-   ],
-   "advantage": "受惠於 AI 晶片需求強勁，庫存天數下滑，展望樂觀。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "AI 晶片需求強勁"
-    },
-    {
-     "type": "revenue_up",
-     "text": "庫存天數下滑"
-    }
-   ],
-   "narrative": [
-    "展望樂觀",
-    "AI 競爭加劇與算力租賃公司風險是擔憂點"
-   ]
-  }
- ]
+ "date": "2026-10-19",
+ "stocks": []
 }
