@@ -1,4 +1,48 @@
 {
- "date": "2026-10-19",
- "stocks": []
+ "date": "2026-10-20",
+ "stocks": [
+  {
+   "name": "NVIDIA",
+   "code": "4721",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "AI 領域的領導者，但股價修正主因是企業融資成本上升。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "AI 服務公司（如 CoreWeave, N-Scale）融資壓力劇增、股價承壓。"
+    }
+   ],
+   "narrative": [
+    "AI 泡沫放緩是錯誤認知，實際是資本結構問題。",
+    "電力瓶頸是長遠隱憂。"
+   ]
+  },
+  {
+   "name": "美光",
+   "code": "6414",
+   "channels": [
+    "游庭皓",
+    "財女珍妮"
+   ],
+   "advantage": "記憶體股，但因賣壓重而下跌。",
+   "claims": [],
+   "narrative": [
+    "拉回是 OK，分批買"
+   ]
+  },
+  {
+   "name": "台積電",
+   "code": "2330",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "半導體產業鏈中的重要角色。",
+   "claims": [],
+   "narrative": [
+    "拉回是 OK，分批買"
+   ]
+  }
+ ]
 }
