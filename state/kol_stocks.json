@@ -1,81 +1,37 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "stocks": [
   {
-   "name": "Apple",
-   "code": "",
+   "name": "台積電",
+   "code": "2330",
    "channels": [
-    "游庭皓",
-    "財女珍妮"
+    "財報狗"
    ],
-   "advantage": "憑藉 iPhone、MacBook 穩住市值，透過 iPhone Duo 試圖拉抬，MacBook Pro 挑戰高價市場。",
+   "advantage": "在AI晶片需求爆發帶動下，先進製程與伺服器零組件、中介層等成熟製程需求強勁，導致產業普遍供不應求。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "iPhone 出貨年增 17%"
-    },
-    {
-     "type": "revenue_up",
-     "text": "MacBbook 營收增 24%"
-    },
-    {
-     "type": "revenue_up",
-     "text": "Apple 營收及 EPS 年增"
+     "text": "Q3財報顯示HPC營收年成長80%以上"
     }
    ],
    "narrative": [
-    "蘋果市值重返第一（5.03 兆美元）",
-    "蘋果等非 AI 科技巨頭的表現可能成為市場支撐",
-    "Apple 股價在高點追高風險高"
+    "預計至2027年將呈現全面性供不應求",
+    "HBM4未來預計轉用3奈米",
+    "CoWoS中介層需求強勁",
+    "認為台積電成長性不輸二線廠"
    ]
   },
   {
-   "name": "Intel",
-   "code": "",
-   "channels": [
-    "M觀點",
-    "財女珍妮"
-   ],
-   "advantage": "AI 需求救了 Intel，成為 CPU 救贖，但面臨產能限制。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "Intel 第三季財報營收獲利優於預期"
-    }
-   ],
-   "narrative": [
-    "Intel 產能受限",
-    "AI 需求推升 CPU 需求"
-   ]
-  },
-  {
-   "name": "Marvel",
+   "name": "AMD",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "在資料中心晶片/光互聯領域是領導者，合併案具產業邏輯。",
+   "advantage": "受惠於資料中心與GPU需求強勁，財報後表現亮眼。",
    "claims": [],
    "narrative": [
-    "Marvel 收購 Lumanta 交易細節",
-    "Marvel 在估值合理時可考慮佈局"
-   ]
-  },
-  {
-   "name": "Pantier",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "高估值但成長性匹配。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "Pantier 營收及 EPS 年增"
-    }
-   ],
-   "narrative": [
-    "認為 Pantier 高估值但成長性匹配"
+    "受益於資料中心與GPU需求",
+    "AI結合仍有機會"
    ]
   }
  ]
