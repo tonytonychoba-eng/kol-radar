@@ -1,4 +1,115 @@
 {
- "date": "2026-11-05",
- "stocks": []
+ "date": "2026-11-06",
+ "stocks": [
+  {
+   "name": "NVIDIA",
+   "code": "",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "主持人透過分析NVIDIA的股價表現，歸納出持續創新、擁抱並駕馭新興趨勢是其成功關鍵。",
+   "claims": [
+    {
+     "type": "price_break",
+     "text": "2000年後漲幅最高的五檔美股之一，漲幅達4000倍"
+    }
+   ],
+   "narrative": [
+    "生態系壯大",
+    "持續創新",
+    "積極擁抱並駕馭新興趨勢"
+   ]
+  },
+  {
+   "name": "Netflix",
+   "code": "",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "主持人透過分析Netflix的股價表現，歸納出持續創新、擁抱並駕馭新興趨勢是其成功關鍵。",
+   "claims": [
+    {
+     "type": "price_break",
+     "text": "2000年後漲幅最高的五檔美股之一，漲幅達3870倍"
+    }
+   ],
+   "narrative": [
+    "持續強大",
+    "持續創新",
+    "積極擁抱並駕馭新興趨勢"
+   ]
+  },
+  {
+   "name": "Monster",
+   "code": "",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "主持人透過分析Monster的股價表現，歸納出建立穩固品牌是其成功關鍵。",
+   "claims": [
+    {
+     "type": "price_break",
+     "text": "2000年後漲幅最高的五檔美股之一，漲幅達3700倍"
+    }
+   ],
+   "narrative": [
+    "建立穩固品牌",
+    "能量飲料產業趨勢向上，品牌是關鍵"
+   ]
+  },
+  {
+   "name": "Celcius",
+   "code": "",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "主持人透過分析Celcius的股價表現，提到建立品牌的重要性，但也警惕品牌信任瓦解。",
+   "claims": [
+    {
+     "type": "price_break",
+     "text": "2000年後漲幅最高的五檔美股之一，漲幅達1920倍"
+    }
+   ],
+   "narrative": [
+    "建立穩固品牌",
+    "警惕品牌信任瓦解",
+    "品牌信任因單一事件瓦解"
+   ]
+  },
+  {
+   "name": "Apple",
+   "code": "",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "主持人透過分析Apple的股價表現，歸納出持續創新是其成功關鍵。",
+   "claims": [
+    {
+     "type": "price_break",
+     "text": "2000年後漲幅最高的五檔美股之一，漲幅達1740倍"
+    }
+   ],
+   "narrative": [
+    "持續創新",
+    "錯失AI藍海市場"
+   ]
+  },
+  {
+   "name": "Cloudflare",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "市場上的AI軟體服務如Cloudflare營收加速，大型客戶數創新高，商業模式變現潛力大。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "營收加速"
+    }
+   ],
+   "narrative": [
+    "商業模式變現潛力大"
+   ]
+  }
+ ]
 }
