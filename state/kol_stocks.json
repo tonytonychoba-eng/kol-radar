@@ -1,4 +1,64 @@
 {
- "date": "2026-11-09",
- "stocks": []
+ "date": "2026-11-10",
+ "stocks": [
+  {
+   "name": "AMD",
+   "code": "",
+   "channels": [
+    "游庭皓",
+    "M觀點",
+    "財女珍妮"
+   ],
+   "advantage": "AMD 在 GPU/CPU 整合方面具有潛在優勢，並受益於市場資金從 NVIDIA 轉移。",
+   "claims": [
+    {
+     "type": "price_break",
+     "text": "AMD 大漲"
+    },
+    {
+     "type": "price_break",
+     "text": "AMD 上漲 13.3%"
+    }
+   ],
+   "narrative": [
+    "AMD 在 GPU/CPU 整合方面具有潛在優勢",
+    "市場資金從 NVIDIA 轉移，AMD 受關注"
+   ]
+  },
+  {
+   "name": "Google",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "Google 佈局 TPU，具有長期投資價值。",
+   "claims": [
+    {
+     "type": "price_break",
+     "text": "Google 宣布新 TPU"
+    }
+   ],
+   "narrative": [
+    "Google 佈局 TPU",
+    "Google 股價因 TPU 佈局有長期投資價值"
+   ]
+  },
+  {
+   "name": "Constellation Energy",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "受 AI 需求影響，但有長約支撐。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Constellation Energy (CEG) 提高全年獲利預期"
+    }
+   ],
+   "narrative": [
+    "公用事業股 (如 CEG) 受 AI 需求影響但有長約支撐"
+   ]
+  }
+ ]
 }
