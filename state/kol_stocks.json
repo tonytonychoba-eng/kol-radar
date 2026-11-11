@@ -1,64 +1,51 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "stocks": [
   {
-   "name": "AMD",
+   "name": "輝達 (NVIDIA)",
    "code": "",
    "channels": [
     "游庭皓",
-    "M觀點",
     "財女珍妮"
    ],
-   "advantage": "AMD 在 GPU/CPU 整合方面具有潛在優勢，並受益於市場資金從 NVIDIA 轉移。",
-   "claims": [
-    {
-     "type": "price_break",
-     "text": "AMD 大漲"
-    },
-    {
-     "type": "price_break",
-     "text": "AMD 上漲 13.3%"
-    }
-   ],
-   "narrative": [
-    "AMD 在 GPU/CPU 整合方面具有潛在優勢",
-    "市場資金從 NVIDIA 轉移，AMD 受關注"
-   ]
-  },
-  {
-   "name": "Google",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "Google 佈局 TPU，具有長期投資價值。",
-   "claims": [
-    {
-     "type": "price_break",
-     "text": "Google 宣布新 TPU"
-    }
-   ],
-   "narrative": [
-    "Google 佈局 TPU",
-    "Google 股價因 TPU 佈局有長期投資價值"
-   ]
-  },
-  {
-   "name": "Constellation Energy",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "受 AI 需求影響，但有長約支撐。",
+   "advantage": "公司基本面仍具吸引力，資料中心建置的電力基礎設施問題是關鍵，公司本益比具吸引力。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "Constellation Energy (CEG) 提高全年獲利預期"
+     "text": "資料中心建置壓力被誇大"
     }
    ],
    "narrative": [
-    "公用事業股 (如 CEG) 受 AI 需求影響但有長約支撐"
+    "看好輝達長期潛力",
+    "AI晶片管制面臨壓力"
    ]
+  },
+  {
+   "name": "CoreWeave",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "財報營收獲利優於指引，但面臨需求強勁但債務沉重、客戶集中度高及執行風險的挑戰。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "財報營收獲利優於指引"
+    }
+   ],
+   "narrative": [
+    "需謹慎應對其債務、客戶集中度與執行風險"
+   ]
+  },
+  {
+   "name": "博通 (Broadcom)",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "轉單效應。",
+   "claims": [],
+   "narrative": []
   }
  ]
 }
