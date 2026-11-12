@@ -1,51 +1,24 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "stocks": [
   {
-   "name": "輝達 (NVIDIA)",
-   "code": "",
+   "name": "NVIDIA",
+   "code": "NVDA",
    "channels": [
+    "股癌",
     "游庭皓",
     "財女珍妮"
    ],
-   "advantage": "公司基本面仍具吸引力，資料中心建置的電力基礎設施問題是關鍵，公司本益比具吸引力。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "資料中心建置壓力被誇大"
-    }
-   ],
-   "narrative": [
-    "看好輝達長期潛力",
-    "AI晶片管制面臨壓力"
-   ]
-  },
-  {
-   "name": "CoreWeave",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "財報營收獲利優於指引，但面臨需求強勁但債務沉重、客戶集中度高及執行風險的挑戰。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "財報營收獲利優於指引"
-    }
-   ],
-   "narrative": [
-    "需謹慎應對其債務、客戶集中度與執行風險"
-   ]
-  },
-  {
-   "name": "博通 (Broadcom)",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "轉單效應。",
+   "advantage": "輝達在AI伺服器、ASIC、太空AI伺服器領域具有未來成長潛力，尤其與SpaceX在太空AI伺服器方面有合作。",
    "claims": [],
-   "narrative": []
+   "narrative": [
+    "輝達在AI伺服器、ASIC、太空AI伺服器方面是未來成長潛力股",
+    "輝達與SpaceX在太空AI伺服器方面有合作",
+    "黃仁勳個人事件短期內僅是影響市場情緒，getServer需求才是關鍵",
+    "輝達的基本面無虞",
+    "AI產業前景看好",
+    "輝達是AI資料中心晶片供應商"
+   ]
   }
  ]
 }
