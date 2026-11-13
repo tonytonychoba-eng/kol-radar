@@ -1,23 +1,123 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "stocks": [
   {
    "name": "NVIDIA",
-   "code": "NVDA",
+   "code": "",
    "channels": [
-    "股癌",
     "游庭皓",
-    "財女珍妮"
+    "財報狗",
+    "財女珍妮",
+    "股市隱者"
    ],
-   "advantage": "輝達在AI伺服器、ASIC、太空AI伺服器領域具有未來成長潛力，尤其與SpaceX在太空AI伺服器方面有合作。",
-   "claims": [],
+   "advantage": "NVIDIA是AI晶片龍頭，具有強勁的成長潛力，但股價受到領導人風波影響。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "AI產業對台灣供應鏈的重要性未減，使得需求強勁。"
+    },
+    {
+     "type": "price_break",
+     "text": "AI結構性改變帶動營收獲利成長。"
+    }
+   ],
    "narrative": [
-    "輝達在AI伺服器、ASIC、太空AI伺服器方面是未來成長潛力股",
-    "輝達與SpaceX在太空AI伺服器方面有合作",
-    "黃仁勳個人事件短期內僅是影響市場情緒，getServer需求才是關鍵",
-    "輝達的基本面無虞",
-    "AI產業前景看好",
-    "輝達是AI資料中心晶片供應商"
+    "黃仁勳的離開是政治風暴的結果，對輝達而言最壞的時刻可能未到。",
+    "輝達股價下跌是超跌，可能回歸。",
+    "NVIDIA股價相較於未來預期獲利，處於相對便宜且有吸引力的價格。",
+    "AI趨勢不滅。",
+    "NVIDIA有強勁的成長潛力。",
+    "NVIDIA是AI晶片龍頭。",
+    "NVIDIA股價劇烈波動，但長期成長動能仍在。",
+    "股價不只反應現在，更多反應市場預期。"
+   ]
+  },
+  {
+   "name": "AMD",
+   "code": "",
+   "channels": [
+    "財女珍妮",
+    "財報狗"
+   ],
+   "advantage": "AMD是NVIDIA的競爭對手，提供GPU，具備產品迭代及軟硬整合潛力，被視為受惠股。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "AMD股價上漲。"
+    }
+   ],
+   "narrative": [
+    "AMD是較佳投資選項。",
+    "AMD是受惠股。"
+   ]
+  },
+  {
+   "name": "Broadcom",
+   "code": "",
+   "channels": [
+    "財女珍妮",
+    "財報狗"
+   ],
+   "advantage": "Broadcom提供ASIC及網路解決方案，受惠於客戶對晶片自主掌控及成本效率的需求。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Broadcom股價上漲。"
+    }
+   ],
+   "narrative": [
+    "Broadcom是受惠股。"
+   ]
+  },
+  {
+   "name": "台積電",
+   "code": "",
+   "channels": [
+    "財報狗",
+    "股市隱者"
+   ],
+   "advantage": "台積電在先進製程及先進封裝領域具備優勢，並積極進行創投布局，AI結構性改變帶動營收獲利成長。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "AI結構性改變帶動營收獲利成長。"
+    }
+   ],
+   "narrative": [
+    "台積電的創投布局。",
+    "AI結構性改變帶動營收獲利成長。"
+   ]
+  },
+  {
+   "name": "Coolerace",
+   "code": "",
+   "channels": [
+    "財報狗"
+   ],
+   "advantage": "Coolerace在營收成長和資本支出回收期方面表現良好。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "Coolerace的營收成長。"
+    }
+   ],
+   "narrative": []
+  },
+  {
+   "name": "國巨",
+   "code": "",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "國巨在半導體產業具有一定影響力，但管理層賣股行為對股價造成衝擊。",
+   "claims": [
+    {
+     "type": "foreign_sell",
+     "text": "管理層申報賣股致股價重挫。"
+    }
+   ],
+   "narrative": [
+    "管理層申報賣股致股價重挫。"
    ]
   }
  ]
