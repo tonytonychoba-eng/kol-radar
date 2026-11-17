@@ -1,46 +1,24 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "stocks": [
   {
    "name": "NVIDIA",
-   "code": "",
+   "code": "NVDA",
    "channels": [
-    "游庭皓",
+    "M觀點",
     "財女珍妮"
    ],
-   "advantage": "AI 晶片龍頭，財報表現亮眼，具備長期價值。",
+   "advantage": "輝達驚人的獲利能力與真實需求使其財務穩健",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "NVIDIA 營收高速成長"
-    },
-    {
-     "type": "price_break",
-     "text": "NVIDIA 的FORWARD PE 顯得便宜"
+     "text": "輝達 2025/2026 年預計獲利數千億美元"
     }
    ],
    "narrative": [
-    "AI 趨勢不變，關鍵在於找到能長期存在的公司。",
-    "長期 AI 趨勢不變",
-    "基本面良好的公司仍具投資價值"
-   ]
-  },
-  {
-   "name": "Cerebras",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "財報亮眼，雲端營收創新高。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "Cerebras 財報營收與 EPS 優於預期，雲端營收創新高"
-    }
-   ],
-   "narrative": [
-    "成長動能受客戶集中及產能限制",
-    "隱憂大於成長"
+    "輝達面臨「循環中之」指控，但其真實需求和高毛利率使其財務穩健",
+    "AI 發展潛力仍在",
+    "即使是風格轉換 (GPU 到 ASIC 或訓練到 Agent) AI 趨勢會延續"
    ]
   }
  ]
