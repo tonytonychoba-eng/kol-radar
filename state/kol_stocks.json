@@ -1,24 +1,53 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "stocks": [
   {
-   "name": "NVIDIA",
-   "code": "NVDA",
+   "name": "台積電",
+   "code": "2330",
    "channels": [
-    "M觀點",
-    "財女珍妮"
+    "股市隱者"
    ],
-   "advantage": "輝達驚人的獲利能力與真實需求使其財務穩健",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "輝達 2025/2026 年預計獲利數千億美元"
-    }
-   ],
+   "advantage": "台積電「兩邊都吃」且本益比合理。",
+   "claims": [],
    "narrative": [
-    "輝達面臨「循環中之」指控，但其真實需求和高毛利率使其財務穩健",
-    "AI 發展潛力仍在",
-    "即使是風格轉換 (GPU 到 ASIC 或訓練到 Agent) AI 趨勢會延續"
+    "台積電「兩邊都吃」",
+    "本益比合理"
+   ]
+  },
+  {
+   "name": "創意",
+   "code": "3443",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "ASIC陣營將慢慢追趕。",
+   "claims": [],
+   "narrative": [
+    "ASIC陣營將慢慢追趕"
+   ]
+  },
+  {
+   "name": "聯發科",
+   "code": "2454",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "ASIC陣營將慢慢追趕。",
+   "claims": [],
+   "narrative": [
+    "ASIC陣營將慢慢追gan"
+   ]
+  },
+  {
+   "name": "世芯",
+   "code": "3661",
+   "channels": [
+    "股市隱者"
+   ],
+   "advantage": "ASIC陣營將慢慢追趕。",
+   "claims": [],
+   "narrative": [
+    "ASIC陣營將慢慢追趕"
    ]
   }
  ]
