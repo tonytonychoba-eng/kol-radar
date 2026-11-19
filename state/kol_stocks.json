@@ -1,54 +1,20 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "stocks": [
   {
-   "name": "台積電",
-   "code": "2330",
+   "name": "信華",
+   "code": "",
    "channels": [
     "股市隱者"
    ],
-   "advantage": "台積電「兩邊都吃」且本益比合理。",
-   "claims": [],
-   "narrative": [
-    "台積電「兩邊都吃」",
-    "本益比合理"
-   ]
-  },
-  {
-   "name": "創意",
-   "code": "3443",
-   "channels": [
-    "股市隱者"
+   "advantage": "營收持續創新高",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "營收持續創新高"
+    }
    ],
-   "advantage": "ASIC陣營將慢慢追趕。",
-   "claims": [],
-   "narrative": [
-    "ASIC陣營將慢慢追趕"
-   ]
-  },
-  {
-   "name": "聯發科",
-   "code": "2454",
-   "channels": [
-    "股市隱者"
-   ],
-   "advantage": "ASIC陣營將慢慢追趕。",
-   "claims": [],
-   "narrative": [
-    "ASIC陣營將慢慢追gan"
-   ]
-  },
-  {
-   "name": "世芯",
-   "code": "3661",
-   "channels": [
-    "股市隱者"
-   ],
-   "advantage": "ASIC陣營將慢慢追趕。",
-   "claims": [],
-   "narrative": [
-    "ASIC陣營將慢慢追趕"
-   ]
+   "narrative": []
   }
  ]
 }
