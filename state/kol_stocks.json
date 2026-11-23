@@ -1,35 +1,17 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "stocks": [
   {
-   "name": "輝達",
-   "code": "NVDA",
+   "name": "NVIDIA",
+   "code": "",
    "channels": [
-    "股癌",
-    "財經M平方"
+    "財報狗"
    ],
-   "advantage": "AI 產業的龍頭，受惠於數據中心建置與強勁的 AI 晶片需求。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "輝達 Q3 財報亮眼，營收年增逾倍，預期明年營收成長上調"
-    }
-   ],
-   "narrative": [
-    "具備長期潛力",
-    "AI 行情未到終點，仍有機會演繹"
-   ]
-  },
-  {
-   "name": "台積電",
-   "code": "2330",
-   "channels": [
-    "股癌"
-   ],
-   "advantage": "作為 AI 產業鏈的關鍵環節，與 NVIDIA 緊密合作。",
+   "advantage": "ASIC 產業的生態系，受中國轉向自主研發的趨勢影響相對較小。",
    "claims": [],
    "narrative": [
-    "具備長期潛力"
+    "ASIC 則可能長期受益於中國轉向自主研發",
+    "Tyrida (ASIC生態系) 影響相對較小"
    ]
   }
  ]
