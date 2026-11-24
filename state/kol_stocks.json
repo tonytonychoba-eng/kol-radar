@@ -1,17 +1,60 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "stocks": [
   {
    "name": "NVIDIA",
    "code": "",
    "channels": [
-    "財報狗"
+    "游庭皓",
+    "M觀點",
+    "財女珍妮"
    ],
-   "advantage": "ASIC 產業的生態系，受中國轉向自主研發的趨勢影響相對較小。",
+   "advantage": "黃仁勳回歸執行長及董事職務，平息了市場對領導層的擔憂。",
+   "claims": [
+    {
+     "type": "revenue_up",
+     "text": "輝達市值單日增長近9000億美元"
+    },
+    {
+     "type": "revenue_up",
+     "text": "NVIDIA單日暴漲30%，市值增加近1兆美元"
+    }
+   ],
+   "narrative": [
+    "黃仁勳回鍋暫時平息了輝達的風暴，但更長遠的政治與產業角力仍在持續。",
+    "黃仁勳的領導力被認為關係到美國 AI 產業的整體發展。",
+    "黃仁勳的回歸是「最大的黑天鵝」，消除了對AI領導人接班的擔憂。",
+    "NVIDIA股價本益比具吸引力。",
+    "NVIDIA股價「非常便宜」。"
+   ]
+  },
+  {
+   "name": "CRWD",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "與ZS收購有關，導致股價下跌，但並非公司本身的問題。",
+   "claims": [
+    {
+     "type": "revenue_down",
+     "text": "CRWD股價下跌"
+    }
+   ],
+   "narrative": [
+    "CRWD股價下跌是因高估值及收購ZS。"
+   ]
+  },
+  {
+   "name": "ZS",
+   "code": "",
+   "channels": [
+    "財女珍妮"
+   ],
+   "advantage": "被CRWD收購，導致CRWD股價下跌。",
    "claims": [],
    "narrative": [
-    "ASIC 則可能長期受益於中國轉向自主研發",
-    "Tyrida (ASIC生態系) 影響相對較小"
+    "CRWD股價下跌是因高估值及收購ZS。"
    ]
   }
  ]
