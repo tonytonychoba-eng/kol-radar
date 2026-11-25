@@ -1,60 +1,45 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "stocks": [
   {
-   "name": "NVIDIA",
+   "name": "輝達",
    "code": "",
    "channels": [
-    "游庭皓",
-    "M觀點",
     "財女珍妮"
    ],
-   "advantage": "黃仁勳回歸執行長及董事職務，平息了市場對領導層的擔憂。",
+   "advantage": "基本面趨勢未變，目前股價處於相對便宜的區間，可考慮長期佈局。",
    "claims": [
     {
      "type": "revenue_up",
-     "text": "輝達市值單日增長近9000億美元"
+     "text": "AI 需求"
     },
     {
-     "type": "revenue_up",
-     "text": "NVIDIA單日暴漲30%，市值增加近1兆美元"
+     "type": "price_break",
+     "text": "股價便宜"
     }
    ],
    "narrative": [
-    "黃仁勳回鍋暫時平息了輝達的風暴，但更長遠的政治與產業角力仍在持續。",
-    "黃仁勳的領導力被認為關係到美國 AI 產業的整體發展。",
-    "黃仁勳的回歸是「最大的黑天鵝」，消除了對AI領導人接班的擔憂。",
-    "NVIDIA股價本益比具吸引力。",
-    "NVIDIA股價「非常便宜」。"
+    "長期趨勢仍在",
+    "短期情緒釋放",
+    "可趁機抄底",
+    "關注價格是否夠便宜"
    ]
   },
   {
-   "name": "CRWD",
+   "name": "台積電",
    "code": "",
    "channels": [
     "財女珍妮"
    ],
-   "advantage": "與ZS收購有關，導致股價下跌，但並非公司本身的問題。",
+   "advantage": "股價處於合理便宜區間，可長期佈局。",
    "claims": [
     {
-     "type": "revenue_down",
-     "text": "CRWD股價下跌"
+     "type": "price_break",
+     "text": "股價處於合理便宜區間"
     }
    ],
    "narrative": [
-    "CRWD股價下跌是因高估值及收購ZS。"
-   ]
-  },
-  {
-   "name": "ZS",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "被CRWD收購，導致CRWD股價下跌。",
-   "claims": [],
-   "narrative": [
-    "CRWD股價下跌是因高估值及收購ZS。"
+    "可長期佈局"
    ]
   }
  ]
