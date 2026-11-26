@@ -1,46 +1,4 @@
 {
- "date": "2026-11-25",
- "stocks": [
-  {
-   "name": "輝達",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "基本面趨勢未變，目前股價處於相對便宜的區間，可考慮長期佈局。",
-   "claims": [
-    {
-     "type": "revenue_up",
-     "text": "AI 需求"
-    },
-    {
-     "type": "price_break",
-     "text": "股價便宜"
-    }
-   ],
-   "narrative": [
-    "長期趨勢仍在",
-    "短期情緒釋放",
-    "可趁機抄底",
-    "關注價格是否夠便宜"
-   ]
-  },
-  {
-   "name": "台積電",
-   "code": "",
-   "channels": [
-    "財女珍妮"
-   ],
-   "advantage": "股價處於合理便宜區間，可長期佈局。",
-   "claims": [
-    {
-     "type": "price_break",
-     "text": "股價處於合理便宜區間"
-    }
-   ],
-   "narrative": [
-    "可長期佈局"
-   ]
-  }
- ]
+ "date": "2026-11-26",
+ "stocks": []
 }
