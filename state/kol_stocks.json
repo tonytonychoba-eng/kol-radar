@@ -1,4 +1,137 @@
 {
- "date": "2026-11-26",
- "stocks": []
+ "date": "2026-11-27",
+ "stocks": [
+  {
+   "name": "輝達",
+   "code": "NVDA",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "AI 基礎建設的龍頭，儘管短期股價回落，但仍是市場焦點。",
+   "claims": [],
+   "narrative": [
+    "AI 投資需要關注的科技巨頭之一",
+    "黃仁勳回鍋對公司影響有限"
+   ]
+  },
+  {
+   "name": "Amazon",
+   "code": "",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "作為三大雲端業者之一，受益於 AI 發展。",
+   "claims": [],
+   "narrative": [
+    "AI 投資應轉向的科技巨頭"
+   ]
+  },
+  {
+   "name": "Microsoft",
+   "code": "",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "作為三大雲端業者之一，受益於 AI 發展。",
+   "claims": [],
+   "narrative": [
+    "AI 投資應轉向的科技巨頭"
+   ]
+  },
+  {
+   "name": "Google",
+   "code": "",
+   "channels": [
+    "M觀點",
+    "財報狗"
+   ],
+   "advantage": "作為三大雲端業者之一，受益於 AI 發展。",
+   "claims": [],
+   "narrative": [
+    "AI 投資應轉向的科技巨頭",
+    "晶片設計資訊存疑"
+   ]
+  },
+  {
+   "name": "Micron",
+   "code": "MU",
+   "channels": [
+    "M觀點",
+    "股市隱者"
+   ],
+   "advantage": "記憶體廠，是 AI 基礎建設的一部分。",
+   "claims": [],
+   "narrative": [
+    "2027 年年中產出晶圓，2028 年第二座廠",
+    "2027 年 DRAM 供給成長 24%"
+   ]
+  },
+  {
+   "name": "Hynix",
+   "code": "000660.KS",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "記憶體廠，是 AI 基礎建設的一部分。",
+   "claims": [],
+   "narrative": []
+  },
+  {
+   "name": "Coherent",
+   "code": "",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "光通訊廠，是 AI 基礎建設的一部分。",
+   "claims": [],
+   "narrative": []
+  },
+  {
+   "name": "Lumentum",
+   "code": "",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "光通訊廠，是 AI 基礎建設的一部分。",
+   "claims": [],
+   "narrative": []
+  },
+  {
+   "name": "Apple",
+   "code": "",
+   "channels": [
+    "M觀點"
+   ],
+   "advantage": "科技巨頭，可能從 AI 發展中獲益。",
+   "claims": [],
+   "narrative": [
+    "AI 投資應轉向的科技巨頭"
+   ]
+  },
+  {
+   "name": "SpaceX",
+   "code": "",
+   "channels": [
+    "財報狗"
+   ],
+   "advantage": "獲准在太空建立 AI 資料中心，是太空產業的新佈局。",
+   "claims": [],
+   "narrative": [
+    "佈局時間較長",
+    "太空數據中心的可行性與技術細節有待釐清"
+   ]
+  },
+  {
+   "name": "聯發科",
+   "code": "2454",
+   "channels": [
+    "財報狗"
+   ],
+   "advantage": "晶片設計公司。",
+   "claims": [],
+   "narrative": [
+    "晶片設計資訊持存疑態度"
+   ]
+  }
+ ]
 }
